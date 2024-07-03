@@ -1,2 +1,1 @@
-Internship Project for SednaCloud
--------RESERVATION SYSTEM--------
+Internship Project "Reservation System" for SednaCloud
