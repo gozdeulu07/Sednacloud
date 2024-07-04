@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Core\SednaReservationAPI.Application\SednaReservationAPI.Application.csproj" />
     <ProjectReference Include="..\Infrastructure\SednaReservationAPI.Persistence\SednaReservationAPI.Persistence.csproj" />
   </ItemGroup>
