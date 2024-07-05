@@ -13,7 +13,7 @@ namespace SednaReservationAPI.Persistence.Concretes
         public List<Customer> GetCustomers()
         => new()
         {
-            new() {Id = Guid.NewGuid(), FullName = "Berke Alpaslan", Email = "alpaslanberke@gmail.com", Password = "BaraCuda", PhoneNumber = 053739914979, Age = 22, Gender = "Male"}
+            new() {Id = Guid.NewGuid(), Name = "Berke Alpaslan", Email = "alpaslanberke@gmail.com", Password = "BaraCuda", Phone = "+9053739914979", Age = 22, Gender = "Male"}
         };
     }
 }

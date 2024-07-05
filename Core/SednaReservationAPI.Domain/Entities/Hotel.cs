@@ -7,13 +7,14 @@ using System.Threading.Tasks;
 
 namespace SednaReservationAPI.Domain.Entities
 {
-    public class Customer : BaseEntitity
+    public class Hotel : BaseEntitity
     {
         public string? Name { get; set; }
-        public string? Email { get; set; }
-        public string? Password { get; set; }
+        public string? Address { get; set; }
         public string? Phone { get; set; }
-        public int Age { get; set; }
-        public string? Gender { get; set; }
+        public string? Email { get; set; }
+        public string? Description { get; set; }
+        public int StarRating { get; set; }
+        public string? ImageUrl { get; set; }
     }
 }

@@ -9,8 +9,8 @@ namespace SednaReservationAPI.Domain.Entities.Common
     public class BaseEntitity
     {
         public Guid Id { get; set; }
-        public DateTime CreatedTime { get; set; }
-        public DateTime CheckIn { get; set; }
-        public DateTime CheckOut { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
+        public bool Deleted { get; set; } = false;
     }
 }
