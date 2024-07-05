@@ -9,8 +9,8 @@ namespace SednaReservationAPI.Domain.Entities
 {
     public class Reservation : BaseEntitity
     {
-        public int UserId { get; set; }
-        public int RoomId { get; set; }
+        public Guid UserId { get; set; }
+        public Guid RoomId { get; set; }
         public DateTime CheckIn { get; set; }
         public DateTime CheckOut { get; set; }
         public decimal TotalPrice { get; set; }

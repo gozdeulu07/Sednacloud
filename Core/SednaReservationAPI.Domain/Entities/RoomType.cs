@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace SednaReservationAPI.Domain.Entities
 {
-    public class RoomType : BaseEntitity
+    public class RoomType
     {
+        public int Id { get; set; }
         public string? Name { get; set; }
         public string? Description { get; set; }
         public string? ImageUrl { get; set; }
