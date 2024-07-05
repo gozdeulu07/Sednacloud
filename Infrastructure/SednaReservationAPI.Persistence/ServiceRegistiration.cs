@@ -16,7 +16,7 @@ namespace SednaReservationAPI.Persistence
     {
         public static void AddPersistenceServices(this IServiceCollection services)
         {
-            services.AddDbContext<SednaReservationAPIDbContext>(options => options.UseNpgsql(Configuration.ConnectionString));
+            services.AddDbContext<SednaReservationAPIDbContext>(options => options.UseNpgsql("User ID=root;Password=sednacloud;Host=localhost;Port=5432;Database=SednaReservationAPIDb;"));
         }
     }
 }
