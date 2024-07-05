@@ -636,6 +636,7 @@
       "System.Threading.Channels/6.0.0": {},
       "SednaReservationAPI.Application/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.6",
           "SednaReservationAPI.Domain": "1.0.0"
         },
         "runtime": {
