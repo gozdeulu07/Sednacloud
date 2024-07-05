@@ -1,0 +1,12 @@
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Domain\bin\Debug\net8.0\SednaReservationAPI.Domain.deps.json
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Domain\bin\Debug\net8.0\SednaReservationAPI.Domain.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Domain\bin\Debug\net8.0\SednaReservationAPI.Domain.pdb
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Domain\obj\Debug\net8.0\SednaReservationAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Domain\obj\Debug\net8.0\SednaReservationAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Domain\obj\Debug\net8.0\SednaReservationAPI.Domain.AssemblyInfo.cs
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Domain\obj\Debug\net8.0\SednaReservationAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Domain\obj\Debug\net8.0\SednaReservationAPI.Domain.sourcelink.json
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Domain\obj\Debug\net8.0\SednaReservationAPI.Domain.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Domain\obj\Debug\net8.0\refint\SednaReservationAPI.Domain.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Domain\obj\Debug\net8.0\SednaReservationAPI.Domain.pdb
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Domain\obj\Debug\net8.0\ref\SednaReservationAPI.Domain.dll

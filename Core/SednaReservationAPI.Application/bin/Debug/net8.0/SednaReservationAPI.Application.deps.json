@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SednaReservationAPI.Application/1.0.0": {
+        "dependencies": {
+          "SednaReservationAPI.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SednaReservationAPI.Application.dll": {}
+        }
+      },
+      "SednaReservationAPI.Domain/1.0.0": {
+        "runtime": {
+          "SednaReservationAPI.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SednaReservationAPI.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SednaReservationAPI.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
