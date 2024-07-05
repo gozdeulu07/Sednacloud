@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SednaReservationAPI.Domain.Entities.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SednaReservationAPI.Domain.Entities
 {
-    public class Payment
+    public class Payment : BaseEntitity
     {
         public int ReservationId { get; set; }
         public decimal Amount { get; set; }

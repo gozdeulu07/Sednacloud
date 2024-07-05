@@ -12,7 +12,6 @@ namespace SednaReservationAPI.Persistence.Contexts
     {
         public SednaReservationAPIDbContext(DbContextOptions options) : base(options)
         {
-
         }
 
         public DbSet<Customer> Customers { get; set; }
