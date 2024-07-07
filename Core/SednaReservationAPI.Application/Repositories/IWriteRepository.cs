@@ -18,7 +18,7 @@ namespace SednaReservationAPI.Application.Repositories
         bool Update(T entity);
         bool UpdateRange(List<T> datas);
         Task<bool> UpdateAsync(string id);
-        Task<int> SaveAsync(T entity);
+        Task<int> SaveAsync();
 
     }
 }

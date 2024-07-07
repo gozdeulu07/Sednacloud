@@ -16,7 +16,7 @@ namespace SednaReservationAPI.Persistence
         public SednaReservationAPIDbContext CreateDbContext(string[] args)
         {
             DbContextOptionsBuilder<SednaReservationAPIDbContext> dbContextOptionsBuilder = new();
-            dbContextOptionsBuilder.UseNpgsql("User ID=root;Password=sednacloud;Host=localhost;Port=5432;Database=SednaReservationAPIDb;");
+            dbContextOptionsBuilder.UseNpgsql("User ID=postgres;Password=sednacloud;Host=localhost;Port=5432;Database=SednaReservationAPIDb;");
             return new(dbContextOptionsBuilder.Options);
         }
     }

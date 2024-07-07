@@ -60,7 +60,7 @@ namespace SednaReservationAPI.Persistence.Repositories
             T entity = await Table.FirstOrDefaultAsync(data => data.Id == Guid.Parse(id));
             return Update(entity);
         }
-        public async Task<int> SaveAsync(T entity)
+        public async Task<int> SaveAsync()
             => await _context.SaveChangesAsync();
     }
 }

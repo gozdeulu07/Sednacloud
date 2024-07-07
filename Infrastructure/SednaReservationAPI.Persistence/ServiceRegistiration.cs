@@ -1,9 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using SednaReservationAPI.Application.Abstractions;
 using SednaReservationAPI.Application.Repositories;
-using SednaReservationAPI.Persistence.Concretes;
 using SednaReservationAPI.Persistence.Contexts;
 using SednaReservationAPI.Persistence.Repositories;
 using System;
@@ -18,7 +16,7 @@ namespace SednaReservationAPI.Persistence
     {
         public static void AddPersistenceServices(this IServiceCollection services)
         {
-            services.AddDbContext<SednaReservationAPIDbContext>(options => options.UseNpgsql("User ID=root;Password=sednacloud;Host=localhost;Port=5432;Database=SednaReservationAPIDb;"));
+            services.AddDbContext<SednaReservationAPIDbContext>(options => options.UseNpgsql("User ID=postgres;Password=sednacloud;Host=localhost;Port=5432;Database=SednaReservationAPIDb;"));
             services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
             services.AddScoped<IHotelReadRepository, HotelReadRepository>();
