@@ -11,32 +11,24 @@ namespace SednaReservationAPI.API.Controllers
     {
         private readonly ICustomerReadRepository _customerReadRepository;
         private readonly ICustomerWriteRepository _customerWriteRepository;
-        public CustomersController(ICustomerReadRepository customerReadRepository, ICustomerWriteRepository customerWriteRepository)
+
+        private readonly IHotelReadRepository _hotelReadRepository;
+        private readonly IHotelWriteRepository _hotelWriteRepository;
+        public CustomersController(ICustomerReadRepository customerReadRepository, ICustomerWriteRepository customerWriteRepository, IHotelReadRepository hotelReadRepository, IHotelWriteRepository hotelWriteRepository)
         {
             _customerReadRepository = customerReadRepository;
             _customerWriteRepository = customerWriteRepository;
+
+            _hotelReadRepository = hotelReadRepository;
+            _hotelWriteRepository = hotelWriteRepository;
         }
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            /*
-            await _customerWriteRepository.AddRangeAsync(new()
-            {
-                new() {Id = Guid.NewGuid(), Name = "Berke Alpaslan", Age = 22, Email = "alpaslanberke@gmail.com", Gender = "Male", Password = "sednacloud", Phone = "+905373914979", CreatedAt = DateTime.UtcNow}
-            });
-            await _customerWriteRepository.SaveAsync();
-            return Ok("Customer Added Successfully!");
-            */
-            Customer customer = await _customerReadRepository.GetByIdAsync("6481e9ab-6c14-4aeb-ac05-0979dfec8194", false);
-            customer.Name = "Berke";
-            await _customerWriteRepository.SaveAsync();
-            return Ok("Manipulation Success!");
-        }
-        [HttpGet("{id}")]
-        public async Task<IActionResult> Get(string id)
-        {
-            Customer customer = await _customerReadRepository.GetByIdAsync(id);
-            return Ok(customer);
+            Hotel hotel = await _hotelReadRepository.GetByIdAsync("779be4b6-6000-429f-820e-6c27b67749f9");
+            hotel.Address = ("Side/Manavgat/Antalya");
+            _hotelWriteRepository.SaveAsync();
+            return Ok("Hotel Address Updated Successfully!");
         }
     }
 }

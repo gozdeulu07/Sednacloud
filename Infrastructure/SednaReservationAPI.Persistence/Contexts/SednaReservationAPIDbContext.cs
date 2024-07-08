@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SednaReservationAPI.Domain.Entities;
+using SednaReservationAPI.Domain.Entities.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,5 +22,20 @@ namespace SednaReservationAPI.Persistence.Contexts
         public DbSet<Reservation> Reservations { get; set; }
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Review> Reviews { get; set; }
+
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            var datas = ChangeTracker.Entries<BaseEntitity>();
+            foreach (var data in datas)
+            {
+                _ = data.State switch
+                {
+                    EntityState.Added => data.Entity.CreatedDate = DateTime.UtcNow,
+                    EntityState.Modified => data.Entity.UpdatedDate = DateTime.UtcNow,
+                    EntityState.Deleted => data.Entity.DeletedDate = DateTime.UtcNow
+                };
+            }
+            return await base.SaveChangesAsync(cancellationToken);
+        }
     }
 }
