@@ -12,7 +12,7 @@ using SednaReservationAPI.Persistence.Contexts;
 namespace SednaReservationAPI.Persistence.Migrations
 {
     [DbContext(typeof(SednaReservationAPIDbContext))]
-    [Migration("20240707150749_mig_1")]
+    [Migration("20240707171320_mig_1")]
     partial class mig_1
     {
         /// <inheritdoc />
