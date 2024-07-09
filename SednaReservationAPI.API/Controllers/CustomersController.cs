@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SednaReservationAPI.Application.Features.Queries.Customer.GetAllCustomer;
 using SednaReservationAPI.Application.Repositories;
 using SednaReservationAPI.Domain.Entities;
 
@@ -11,24 +13,18 @@ namespace SednaReservationAPI.API.Controllers
     {
         private readonly ICustomerReadRepository _customerReadRepository;
         private readonly ICustomerWriteRepository _customerWriteRepository;
-
-        private readonly IHotelReadRepository _hotelReadRepository;
-        private readonly IHotelWriteRepository _hotelWriteRepository;
-        public CustomersController(ICustomerReadRepository customerReadRepository, ICustomerWriteRepository customerWriteRepository, IHotelReadRepository hotelReadRepository, IHotelWriteRepository hotelWriteRepository)
+        readonly IMediator _mediator;
+        public CustomersController(ICustomerReadRepository customerReadRepository, ICustomerWriteRepository customerWriteRepository, IMediator mediator)
         {
             _customerReadRepository = customerReadRepository;
             _customerWriteRepository = customerWriteRepository;
-
-            _hotelReadRepository = hotelReadRepository;
-            _hotelWriteRepository = hotelWriteRepository;
+            _mediator = mediator;
         }
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get([FromQuery] GetAllCustomerQueryRequest getAllCustomerQueryRequest)
         {
-            Hotel hotel = await _hotelReadRepository.GetByIdAsync("779be4b6-6000-429f-820e-6c27b67749f9");
-            hotel.Address = ("Side/Manavgat/Antalya");
-            _hotelWriteRepository.SaveAsync();
-            return Ok("Hotel Address Updated Successfully!");
+            GetAllCustomerQueryResponse response = await _mediator.Send(getAllCustomerQueryRequest);
+            return Ok(response);
         }
     }
 }

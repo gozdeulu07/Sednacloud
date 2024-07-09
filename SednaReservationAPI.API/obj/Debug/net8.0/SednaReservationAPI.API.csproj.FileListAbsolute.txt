@@ -110,3 +110,6 @@ C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservation
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\obj\Debug\net8.0\SednaReservationAPI.API.pdb
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\obj\Debug\net8.0\SednaReservationAPI.API.genruntimeconfig.cache
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\obj\Debug\net8.0\ref\SednaReservationAPI.API.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

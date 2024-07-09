@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SednaReservationAPI.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dd5d56a1d53dc95690c6ba2abac9f3b589356ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb056e003fb6e0b25b91901710a3380d7c74ff39")]
 [assembly: System.Reflection.AssemblyProductAttribute("SednaReservationAPI.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SednaReservationAPI.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
