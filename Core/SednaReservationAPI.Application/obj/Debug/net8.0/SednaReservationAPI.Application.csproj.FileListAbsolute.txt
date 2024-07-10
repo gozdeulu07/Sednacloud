@@ -14,3 +14,19 @@ C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReserv
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Application\obj\Debug\net8.0\refint\SednaReservationAPI.Application.dll
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.pdb
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Application\obj\Debug\net8.0\ref\SednaReservationAPI.Application.dll
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\bin\Debug\net8.0\SednaReservationAPI.Application.deps.json
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\bin\Debug\net8.0\SednaReservationAPI.Application.dll
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\bin\Debug\net8.0\SednaReservationAPI.Application.pdb
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\bin\Debug\net8.0\SednaReservationAPI.Domain.dll
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\bin\Debug\net8.0\SednaReservationAPI.Domain.pdb
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.csproj.AssemblyReference.cache
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.AssemblyInfoInputs.cache
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.AssemblyInfo.cs
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.sourcelink.json
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaRes.E74FDC45.Up2Date
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.dll
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\obj\Debug\net8.0\refint\SednaReservationAPI.Application.dll
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.pdb
+C:\Users\PC\Sednacloud\Core\SednaReservationAPI.Application\obj\Debug\net8.0\ref\SednaReservationAPI.Application.dll

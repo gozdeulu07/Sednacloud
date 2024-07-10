@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using SednaReservationAPI.Application.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,23 @@ namespace SednaReservationAPI.Application.Features.Commands.Hotel.DeleteHotel
 {
     public class DeleteHotelCommandHandler : IRequestHandler<DeleteHotelCommandRequest, DeleteHotelCommandResponse>
     {
-        public Task<DeleteHotelCommandResponse> Handle(DeleteHotelCommandRequest request, CancellationToken cancellationToken)
+
+
+        IHotelWriteRepository _repository;
+
+        public DeleteHotelCommandHandler(IHotelWriteRepository repository)
         {
-            throw new NotImplementedException();
+            _repository = repository;
+        }
+
+
+        public async Task<DeleteHotelCommandResponse> Handle(DeleteHotelCommandRequest request, CancellationToken cancellationToken)
+        {
+            await _repository.RemoveAsync(request.Id);
+            await _repository.SaveAsync();
+
+            return new DeleteHotelCommandResponse();
+
         }
     }
 }

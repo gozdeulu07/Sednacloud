@@ -18,3 +18,23 @@ C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\S
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\SednaReservationAPI.Persistence.pdb
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\SednaReservationAPI.Persistence.genruntimeconfig.cache
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\ref\SednaReservationAPI.Persistence.dll
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\bin\Debug\net8.0\SednaReservationAPI.Persistence.deps.json
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\bin\Debug\net8.0\SednaReservationAPI.Persistence.runtimeconfig.json
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\bin\Debug\net8.0\SednaReservationAPI.Persistence.dll
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\bin\Debug\net8.0\SednaReservationAPI.Persistence.pdb
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\bin\Debug\net8.0\SednaReservationAPI.Application.dll
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\bin\Debug\net8.0\SednaReservationAPI.Domain.dll
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\bin\Debug\net8.0\SednaReservationAPI.Application.pdb
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\bin\Debug\net8.0\SednaReservationAPI.Domain.pdb
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\SednaReservationAPI.Persistence.csproj.AssemblyReference.cache
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\SednaReservationAPI.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\SednaReservationAPI.Persistence.AssemblyInfoInputs.cache
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\SednaReservationAPI.Persistence.AssemblyInfo.cs
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\SednaReservationAPI.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\SednaReservationAPI.Persistence.sourcelink.json
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\SednaRes.847D5600.Up2Date
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\SednaReservationAPI.Persistence.dll
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\refint\SednaReservationAPI.Persistence.dll
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\SednaReservationAPI.Persistence.pdb
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\SednaReservationAPI.Persistence.genruntimeconfig.cache
+C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Persistence\obj\Debug\net8.0\ref\SednaReservationAPI.Persistence.dll

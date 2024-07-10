@@ -26,4 +26,8 @@
     <ProjectReference Include="..\..\Core\SednaReservationAPI.Application\SednaReservationAPI.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

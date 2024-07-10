@@ -9,5 +9,6 @@ namespace SednaReservationAPI.Application.Features.Commands.Hotel.DeleteHotel
 {
     public class DeleteHotelCommandRequest : IRequest<DeleteHotelCommandResponse>
     {
+      public string? Id {  get; set; }
     }
 }

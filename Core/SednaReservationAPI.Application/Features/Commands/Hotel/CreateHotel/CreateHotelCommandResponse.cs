@@ -8,5 +8,6 @@ namespace SednaReservationAPI.Application.Features.Commands.Hotel.CreateHotel
 {
     public class CreateHotelCommandResponse
     {
+      
     }
 }

@@ -9,5 +9,6 @@ namespace SednaReservationAPI.Application.Features.Commands.Hotel.UpdateHotel
 {
     public class UpdateHotelCommandRequest : IRequest<UpdateHotelCommandResponse>
     {
+        public string Id { get; set; }
     }
 }

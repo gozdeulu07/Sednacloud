@@ -16,7 +16,7 @@ namespace SednaReservationAPI.Persistence
     {
         public static void AddPersistenceServices(this IServiceCollection services)
         {
-            services.AddDbContext<SednaReservationAPIDbContext>(options => options.UseNpgsql("User ID=postgres;Password=sednacloud;Host=localhost;Port=5432;Database=SednaReservationAPIDb;"));
+            services.AddDbContext<SednaReservationAPIDbContext>(options => options.UseNpgsql("User ID=postgres;Password=123;Host=localhost;Port=5432;Database=SednaReservationAPIDb;"));
             services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
             services.AddScoped<IHotelReadRepository, HotelReadRepository>();
