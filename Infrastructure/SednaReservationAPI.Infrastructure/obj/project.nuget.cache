@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "a8TaR5O+WbY=",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj",
@@ -47,6 +48,26 @@
     "C:\\Users\\PC\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
+=======
+  "dgSpecHash": "pFK2WedhTWY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC\\Sednacloud\\Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.6\\microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+>>>>>>> Berke
   ],
   "logs": []
 }

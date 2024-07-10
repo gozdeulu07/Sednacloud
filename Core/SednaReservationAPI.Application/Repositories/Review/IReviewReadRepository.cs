@@ -5,10 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SednaReservationAPI.Application.Abstractions
+namespace SednaReservationAPI.Application.Repositories
 {
-    public interface ICustomerService
+    public interface IReviewReadRepository : IReadRepository<Review>
     {
-        List<Customer> GetCustomers();
     }
 }

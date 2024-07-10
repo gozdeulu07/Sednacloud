@@ -14,9 +14,13 @@ namespace SednaReservationAPI.Persistence
     public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<SednaReservationAPIDbContext>
     {
         public SednaReservationAPIDbContext CreateDbContext(string[] args)
-        {
+        {   
             DbContextOptionsBuilder<SednaReservationAPIDbContext> dbContextOptionsBuilder = new();
+<<<<<<< HEAD
             dbContextOptionsBuilder.UseNpgsql("User ID=postgres;Password=123;Host=localhost;Port=5432;Database=SednaCloud123;");
+=======
+            dbContextOptionsBuilder.UseNpgsql("User ID=postgres;Password=123;Host=localhost;Port=5432;Database=SednaReservationAPIDb;");
+>>>>>>> Berke
             return new(dbContextOptionsBuilder.Options);
         }
     }

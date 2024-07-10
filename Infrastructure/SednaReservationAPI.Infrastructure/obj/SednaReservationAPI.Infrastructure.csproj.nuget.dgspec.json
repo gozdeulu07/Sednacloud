@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\obj\\",
+=======
+    "C:\\Users\\PC\\Sednacloud\\Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj",
+        "projectName": "SednaReservationAPI.Application",
+        "projectPath": "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Application\\obj\\",
+>>>>>>> Berke
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +43,13 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj": {
                 "projectPath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj"
+=======
+              "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj"
+>>>>>>> Berke
               }
             }
           }
@@ -50,9 +69,19 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+<<<<<<< HEAD
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.6, )"
+=======
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+>>>>>>> Berke
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -85,6 +114,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -93,6 +123,16 @@
         "projectPath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Domain\\obj\\",
+=======
+    "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj",
+        "projectName": "SednaReservationAPI.Domain",
+        "projectPath": "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Domain\\obj\\",
+>>>>>>> Berke
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,6 +198,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -166,6 +207,16 @@
         "projectPath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Infrastructure\\SednaReservationAPI.Infrastructure\\obj\\",
+=======
+    "C:\\Users\\PC\\Sednacloud\\Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Sednacloud\\Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj",
+        "projectName": "SednaReservationAPI.Infrastructure",
+        "projectPath": "C:\\Users\\PC\\Sednacloud\\Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Sednacloud\\Infrastructure\\SednaReservationAPI.Infrastructure\\obj\\",
+>>>>>>> Berke
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,8 +234,13 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj": {
                 "projectPath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj"
+=======
+              "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj"
+>>>>>>> Berke
               }
             }
           }

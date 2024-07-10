@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "MiRSjUOmq7Q=",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj",
@@ -48,5 +49,11 @@
     "C:\\Users\\PC\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "7TBwfrdMyOw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> Berke
   "logs": []
 }

@@ -2367,11 +2367,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj",
       "projectName": "SednaReservationAPI.Domain",
       "projectPath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Domain\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj",
+      "projectName": "SednaReservationAPI.Domain",
+      "projectPath": "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Domain\\obj\\",
+>>>>>>> Berke
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

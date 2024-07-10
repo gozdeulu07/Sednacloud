@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SednaReservationAPI.Infrastructure
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\PC\Desktop\SADASD\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\
+=======
+build_property.ProjectDir = C:\Users\PC\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\
+>>>>>>> Berke
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -9,7 +9,11 @@ namespace SednaReservationAPI.Domain.Entities
 {
     public class Payment : BaseEntitity
     {
+<<<<<<< HEAD
         public Guid ReservationId { get; set; }
+=======
+        public string ReservationId { get; set; }
+>>>>>>> Berke
         public decimal Amount { get; set; }
         public string? Status { get; set; }
         public string? PaymentMethod { get; set; }

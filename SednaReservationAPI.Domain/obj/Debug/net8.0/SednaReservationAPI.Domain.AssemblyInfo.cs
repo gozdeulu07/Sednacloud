@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SednaReservationAPI.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+463a4d338a37e219ec9c1908b9557eddf110e39c")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61928b78b4597e6ae9010d2f2cf1751a7edfc82f")]
+>>>>>>> Berke
 [assembly: System.Reflection.AssemblyProductAttribute("SednaReservationAPI.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SednaReservationAPI.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

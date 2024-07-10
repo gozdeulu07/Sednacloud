@@ -134,9 +134,20 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("integer");
 
+<<<<<<< HEAD
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("text");
+=======
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("Deleted")
+                        .HasColumnType("boolean");
+>>>>>>> Berke
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Email")
                         .HasMaxLength(256)
@@ -148,7 +159,17 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("boolean");
 
+<<<<<<< HEAD
                     b.Property<DateTimeOffset?>("LockoutEnd")
+=======
+                    b.Property<string>("Password")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime?>("UpdatedDate")
+>>>>>>> Berke
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("NormalizedEmail")
@@ -221,11 +242,14 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<bool>("Deleted")
                         .HasColumnType("boolean");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Description")
                         .HasColumnType("text");
@@ -242,10 +266,13 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<string>("Phone")
                         .HasColumnType("text");
 
+                    b.Property<int>("Star")
+                        .HasColumnType("integer");
+
                     b.Property<int>("StarRating")
                         .HasColumnType("integer");
 
-                    b.Property<DateTime>("UpdatedAt")
+                    b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
@@ -255,6 +282,7 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.HasData(
                         new
                         {
+<<<<<<< HEAD
                             Id = new Guid("7b8ee542-03ae-4366-9705-b4a14671ef45"),
                             Address = "1",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -296,6 +324,45 @@ namespace SednaReservationAPI.Persistence.Migrations
                             Name = "Tahta Hotel",
                             StarRating = 4,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+=======
+                            Id = new Guid("caae5206-29f3-4927-972d-247a5df1a9c4"),
+                            Address = "1",
+                            Deleted = false,
+                            Description = "Civardaki en uygun fiyatlı otel",
+                            Name = "Su Hotel",
+                            Star = 5,
+                            StarRating = 4
+                        },
+                        new
+                        {
+                            Id = new Guid("4bddd8b8-996a-4259-a677-b1ac921ebe2d"),
+                            Address = "2",
+                            Deleted = false,
+                            Description = "Civardaki en lüks otel",
+                            Name = "Ateş Hotel",
+                            Star = 3,
+                            StarRating = 4
+                        },
+                        new
+                        {
+                            Id = new Guid("bfec656a-1e4d-456f-8f11-8c8590331b04"),
+                            Address = "3",
+                            Deleted = false,
+                            Description = "Civardaki en lüks otel",
+                            Name = "Toprak Hotel",
+                            Star = 3,
+                            StarRating = 4
+                        },
+                        new
+                        {
+                            Id = new Guid("043a1ff9-91c1-4fcc-b81d-98dd822ebe50"),
+                            Address = "4",
+                            Deleted = false,
+                            Description = "Hava olmasın",
+                            Name = "Tahta Hotel",
+                            Star = 3,
+                            StarRating = 4
+>>>>>>> Berke
                         });
                 });
 
@@ -308,7 +375,7 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<decimal>("Amount")
                         .HasColumnType("numeric");
 
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<DateTime>("Date")
@@ -317,16 +384,25 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<bool>("Deleted")
                         .HasColumnType("boolean");
 
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<string>("PaymentMethod")
                         .HasColumnType("text");
 
+<<<<<<< HEAD
                     b.Property<Guid>("ReservationId")
                         .HasColumnType("uuid");
+=======
+                    b.Property<string>("ReservationId")
+                        .IsRequired()
+                        .HasColumnType("text");
+>>>>>>> Berke
 
                     b.Property<string>("Status")
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("UpdatedAt")
+                    b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
@@ -336,6 +412,7 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.HasData(
                         new
                         {
+<<<<<<< HEAD
                             Id = new Guid("de21bb17-2592-4881-89b8-b2154d855d64"),
                             Amount = 7500m,
                             CreatedAt = new DateTime(2024, 7, 5, 19, 1, 3, 353, DateTimeKind.Utc).AddTicks(6723),
@@ -345,6 +422,17 @@ namespace SednaReservationAPI.Persistence.Migrations
                             ReservationId = new Guid("214d0ec2-9b86-4233-8d69-221917ea8c39"),
                             Status = "Dolu",
                             UpdatedAt = new DateTime(2024, 7, 6, 11, 0, 0, 0, DateTimeKind.Utc)
+=======
+                            Id = new Guid("938e7234-c1c5-456c-b42a-95cd55690989"),
+                            Amount = 7500m,
+                            CreatedDate = new DateTime(2024, 7, 10, 6, 42, 37, 814, DateTimeKind.Utc).AddTicks(9215),
+                            Date = new DateTime(2024, 7, 6, 11, 0, 0, 0, DateTimeKind.Utc),
+                            Deleted = false,
+                            PaymentMethod = "Online",
+                            ReservationId = "asdsadasd",
+                            Status = "Dolu",
+                            UpdatedDate = new DateTime(2024, 7, 6, 11, 0, 0, 0, DateTimeKind.Utc)
+>>>>>>> Berke
                         });
                 });
 
@@ -360,14 +448,22 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<DateTime>("CheckOut")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<bool>("Deleted")
                         .HasColumnType("boolean");
 
+<<<<<<< HEAD
                     b.Property<Guid>("RoomId")
                         .HasColumnType("uuid");
+=======
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("RoomId")
+                        .HasColumnType("text");
+>>>>>>> Berke
 
                     b.Property<string>("Status")
                         .HasColumnType("text");
@@ -375,11 +471,16 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<decimal>("TotalPrice")
                         .HasColumnType("numeric");
 
-                    b.Property<DateTime>("UpdatedAt")
+                    b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");
 
+<<<<<<< HEAD
                     b.Property<Guid>("UserId")
                         .HasColumnType("uuid");
+=======
+                    b.Property<string>("UserId")
+                        .HasColumnType("text");
+>>>>>>> Berke
 
                     b.HasKey("Id");
 
@@ -388,6 +489,7 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.HasData(
                         new
                         {
+<<<<<<< HEAD
                             Id = new Guid("838a8721-3178-4006-8051-6183a9028ca6"),
                             CheckIn = new DateTime(2024, 7, 5, 19, 1, 3, 353, DateTimeKind.Utc).AddTicks(6618),
                             CheckOut = new DateTime(2024, 7, 6, 11, 0, 0, 0, DateTimeKind.Utc),
@@ -424,6 +526,41 @@ namespace SednaReservationAPI.Persistence.Migrations
                             TotalPrice = 8000m,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UserId = new Guid("43cd88fc-c8ce-4779-b25a-ba5590211add")
+=======
+                            Id = new Guid("28f239cf-26c1-4dab-bd42-4b3dd8778209"),
+                            CheckIn = new DateTime(2024, 7, 10, 6, 42, 37, 814, DateTimeKind.Utc).AddTicks(9131),
+                            CheckOut = new DateTime(2024, 7, 6, 11, 0, 0, 0, DateTimeKind.Utc),
+                            CreatedDate = new DateTime(2024, 7, 10, 6, 42, 37, 814, DateTimeKind.Utc).AddTicks(9137),
+                            Deleted = false,
+                            RoomId = "asdasdasdsa",
+                            Status = "Dolu",
+                            TotalPrice = 5000m,
+                            UserId = "asdasdasdsa"
+                        },
+                        new
+                        {
+                            Id = new Guid("dd0cd34f-a42b-4249-9668-a9b3d820023a"),
+                            CheckIn = new DateTime(2024, 7, 10, 6, 42, 37, 814, DateTimeKind.Utc).AddTicks(9142),
+                            CheckOut = new DateTime(2024, 7, 5, 11, 0, 0, 0, DateTimeKind.Utc),
+                            CreatedDate = new DateTime(2024, 7, 10, 6, 42, 37, 814, DateTimeKind.Utc).AddTicks(9143),
+                            Deleted = false,
+                            RoomId = "asdasdasdsa",
+                            Status = "Dolu",
+                            TotalPrice = 7500m,
+                            UserId = "asdasdasdsa"
+                        },
+                        new
+                        {
+                            Id = new Guid("99ca61e6-3320-4600-b218-9d0a559a8ff2"),
+                            CheckIn = new DateTime(2024, 7, 10, 6, 42, 37, 814, DateTimeKind.Utc).AddTicks(9148),
+                            CheckOut = new DateTime(2024, 8, 5, 11, 0, 0, 0, DateTimeKind.Utc),
+                            CreatedDate = new DateTime(2024, 7, 10, 6, 42, 37, 814, DateTimeKind.Utc).AddTicks(9148),
+                            Deleted = false,
+                            RoomId = "asdasdasdsa",
+                            Status = "Dolu",
+                            TotalPrice = 8000m,
+                            UserId = "asdasdasdsa"
+>>>>>>> Berke
                         });
                 });
 
@@ -436,11 +573,14 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<string>("Comment")
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<bool>("Deleted")
                         .HasColumnType("boolean");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<Guid>("HotelId")
                         .HasColumnType("uuid");
@@ -448,7 +588,7 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<float>("Rating")
                         .HasColumnType("real");
 
-                    b.Property<DateTime>("UpdatedAt")
+                    b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<Guid>("UserId")
@@ -495,22 +635,30 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<decimal>("BasePrice")
                         .HasColumnType("numeric");
 
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<bool>("Deleted")
                         .HasColumnType("boolean");
 
+<<<<<<< HEAD
                     b.Property<Guid>("HotelId")
                         .HasColumnType("uuid");
+=======
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("timestamp with time zone");
+>>>>>>> Berke
 
-                    b.Property<int>("RoomTypeId")
-                        .HasColumnType("integer");
+                    b.Property<string>("HotelId")
+                        .HasColumnType("text");
+
+                    b.Property<string>("RoomTypeId")
+                        .HasColumnType("text");
 
                     b.Property<string>("Status")
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("UpdatedAt")
+                    b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
@@ -520,6 +668,7 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.HasData(
                         new
                         {
+<<<<<<< HEAD
                             Id = new Guid("27923c5b-9b89-4924-b9dc-3d50177e4198"),
                             BasePrice = 3500m,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -561,6 +710,41 @@ namespace SednaReservationAPI.Persistence.Migrations
                             RoomTypeId = 1,
                             Status = "Boş",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+=======
+                            Id = new Guid("d59e3f10-d26e-4822-abec-4c06c14c542c"),
+                            BasePrice = 3500m,
+                            Deleted = false,
+                            HotelId = "asdasdasdsa",
+                            RoomTypeId = "asdasdasdsa",
+                            Status = "Aktif"
+                        },
+                        new
+                        {
+                            Id = new Guid("1bd11778-a1a0-4d14-8bca-2e9fac5b7759"),
+                            BasePrice = 3500m,
+                            Deleted = false,
+                            HotelId = "asdasdasdsa",
+                            RoomTypeId = "asdasdasdsa",
+                            Status = "Boş"
+                        },
+                        new
+                        {
+                            Id = new Guid("0b78fc75-d8fd-47fc-a5fc-8f3eba38ecf6"),
+                            BasePrice = 3500m,
+                            Deleted = false,
+                            HotelId = "asdasdasdsa",
+                            RoomTypeId = "asdasdasdsa",
+                            Status = "Boş"
+                        },
+                        new
+                        {
+                            Id = new Guid("9834a325-2a8e-44d0-9c1f-e3327fac0585"),
+                            BasePrice = 3500m,
+                            Deleted = false,
+                            HotelId = "asdasdasdsa",
+                            RoomTypeId = "asdasdasdsa",
+                            Status = "Boş"
+>>>>>>> Berke
                         });
                 });
 
@@ -570,7 +754,18 @@ namespace SednaReservationAPI.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
+<<<<<<< HEAD
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+=======
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("Deleted")
+                        .HasColumnType("boolean");
+>>>>>>> Berke
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Description")
                         .HasColumnType("text");
@@ -581,6 +776,12 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("text");
 
+<<<<<<< HEAD
+=======
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+>>>>>>> Berke
                     b.HasKey("Id");
 
                     b.ToTable("RoomTypes");
@@ -588,18 +789,29 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.HasData(
                         new
                         {
+<<<<<<< HEAD
                             Id = 1,
+=======
+                            Id = new Guid("ef9629f3-8a81-461a-8731-bfbe8cacdf10"),
+                            Deleted = false,
+>>>>>>> Berke
                             Description = "Tek kişilik oda",
                             Name = "Tek Kişilik"
                         },
                         new
                         {
+<<<<<<< HEAD
                             Id = 2,
+=======
+                            Id = new Guid("21db6c78-1900-40c6-b52b-c1b049019a61"),
+                            Deleted = false,
+>>>>>>> Berke
                             Description = "İki kişilik oda",
                             Name = "İki Kişilik"
                         },
                         new
                         {
+<<<<<<< HEAD
                             Id = 3,
                             Description = "Üç kişilik oda",
                             Name = "Üç Kişilik"
@@ -655,6 +867,13 @@ namespace SednaReservationAPI.Persistence.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+=======
+                            Id = new Guid("40b78c63-8689-4bc0-a43a-961b4f5dd20d"),
+                            Deleted = false,
+                            Description = "Üç kişilik oda",
+                            Name = "Üç Kişilik"
+                        });
+>>>>>>> Berke
                 });
 #pragma warning restore 612, 618
         }

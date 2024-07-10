@@ -15,6 +15,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Cryptography.Internal/8.0.6": {
         "type": "package",
         "compile": {
@@ -35,15 +36,29 @@
         },
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+=======
+      "MediatR/11.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {
+>>>>>>> Berke
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+=======
+          "lib/netstandard2.1/MediatR.dll": {
+>>>>>>> Berke
             "related": ".xml"
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.6": {
         "type": "package",
         "dependencies": {
@@ -59,6 +74,32 @@
           "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
             "related": ".xml"
           }
+=======
+      "MediatR.Contracts/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "[11.0.0, 12.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+>>>>>>> Berke
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -1084,7 +1125,12 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.6",
+=======
+          "MediatR": "11.1.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
+>>>>>>> Berke
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "SednaReservationAPI.Domain": "1.0.0"
         },
@@ -1129,6 +1175,7 @@
         "logo.png"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Cryptography.Internal/8.0.6": {
       "sha512": "bkMu3+COnAodJPoSzzEV7twEE7hP8CF1AZrb9GVmkudE5K3UFyE6BtGeSaUrPngPtnmyDux3Z8pw5Knb/Xm5yA==",
       "type": "package",
@@ -1180,6 +1227,49 @@
         "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
         "microsoft.aspnetcore.identity.entityframeworkcore.8.0.6.nupkg.sha512",
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
+=======
+    "MediatR/11.1.0": {
+      "sha512": "YIbtrLOyeCuIv8vIuHL/mMdls5xmgS36pIOJDxKZuu55nxA2MI2Z+E/Uk0z+F/LE11AGmpjplOM0NZ91m5LQBA==",
+      "type": "package",
+      "path": "mediatr/11.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.11.1.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/1.0.1": {
+      "sha512": "NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
+      "type": "package",
+      "path": "mediatr.contracts/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.Contracts.dll",
+        "lib/net461/MediatR.Contracts.xml",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.1.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
+      "sha512": "RW3etRuy6Xp63cgqfC0r/ITOtUT0f9ymJl1+1XZdzsYUsfv7WBPC2kXGOP8IYpY/6c4Q6805vbIW/88DopUs3w==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/11.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
+>>>>>>> Berke
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -2825,11 +2915,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Infrastructure\\SednaReservationAPI.Persistence\\SednaReservationAPI.Persistence.csproj",
       "projectName": "SednaReservationAPI.Persistence",
       "projectPath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Infrastructure\\SednaReservationAPI.Persistence\\SednaReservationAPI.Persistence.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Infrastructure\\SednaReservationAPI.Persistence\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\PC\\Sednacloud\\Infrastructure\\SednaReservationAPI.Persistence\\SednaReservationAPI.Persistence.csproj",
+      "projectName": "SednaReservationAPI.Persistence",
+      "projectPath": "C:\\Users\\PC\\Sednacloud\\Infrastructure\\SednaReservationAPI.Persistence\\SednaReservationAPI.Persistence.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Sednacloud\\Infrastructure\\SednaReservationAPI.Persistence\\obj\\",
+>>>>>>> Berke
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2847,8 +2945,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj": {
               "projectPath": "C:\\Users\\PC\\Desktop\\SADASD\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj"
+=======
+            "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\PC\\Sednacloud\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj"
+>>>>>>> Berke
             }
           }
         }
