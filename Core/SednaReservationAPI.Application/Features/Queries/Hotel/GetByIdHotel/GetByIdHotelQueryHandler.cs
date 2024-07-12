@@ -15,15 +15,13 @@ namespace SednaReservationAPI.Application.Features.Queries.Hotel.GetByIdHotel
 
         public GetByIdHotelQueryHandler(IHotelReadRepository hotelReadRepository)
         {
-            this._hotelReadRepository = hotelReadRepository;
+            _hotelReadRepository = hotelReadRepository;
         }
 
         public async Task<GetByIdHotelQueryResponse> Handle(GetByIdHotelQueryRequest request, CancellationToken cancellationToken)
         {
 
             var hotel = await _hotelReadRepository.GetByIdAsync(request.Id, false);
-
-
             var response = new GetByIdHotelQueryResponse
             {
                 Id = hotel.Id.ToString(),
@@ -33,6 +31,7 @@ namespace SednaReservationAPI.Application.Features.Queries.Hotel.GetByIdHotel
                 Email = hotel.Email,
                 Description = hotel.Description,
                 StarRating = hotel.StarRating,
+                Star = hotel.Star,
                 ImageUrl = hotel.ImageUrl
             };
 

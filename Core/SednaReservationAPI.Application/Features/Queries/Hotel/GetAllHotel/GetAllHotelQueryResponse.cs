@@ -17,6 +17,7 @@ namespace SednaReservationAPI.Application.Features.Queries.Hotel.GetAllHotel
         public string? Email { get; set; }
         public string? Description { get; set; }
         public double StarRating { get; set; }
+        public float Star {  get; set; }
         public string? ImageUrl { get; set; }
     }
 }

@@ -29,6 +29,7 @@ namespace SednaReservationAPI.Application.Features.Queries.Hotel.GetAllHotel
                   Email = hotel.Email,
                   Description = hotel.Description,
                   StarRating = hotel.StarRating,
+                  Star = hotel.Star,
                   ImageUrl = hotel.ImageUrl
               })
               .ToList();
