@@ -28,3 +28,4 @@ C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Cor
 C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\obj\Debug\net8.0\refint\SednaReservationAPI.Application.dll
 C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.pdb
 C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\obj\Debug\net8.0\ref\SednaReservationAPI.Application.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.sourcelink.json

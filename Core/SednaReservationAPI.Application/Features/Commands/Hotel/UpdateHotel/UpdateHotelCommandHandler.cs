@@ -27,6 +27,7 @@ namespace SednaReservationAPI.Application.Features.Commands.Hotel.UpdateHotel
             hotel.Address = request.Address;
             hotel.Phone = request.Phone;
             hotel.StarRating = request.StarRating;
+            hotel.Star = request.Star;
             hotel.Email = request.Email;
             hotel.ImageUrl = request.ImageUrl;
             hotel.UpdatedDate = DateTime.UtcNow;

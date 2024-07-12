@@ -17,7 +17,7 @@ namespace SednaReservationAPI.Application.Features.Queries.Customer.GetByIdCusto
             _customerReadRepository = customerReadRepository;
         }
 
-        public async Task<GetByIdCustomerQueryResponse> IRequestHandler<GetByIdCustomerQueryRequest, GetByIdCustomerQueryResponse>.Handle(GetByIdCustomerQueryRequest request, CancellationToken cancellationToken)
+        public async Task<GetByIdCustomerQueryResponse> Handle(GetByIdCustomerQueryRequest request, CancellationToken cancellationToken)
         {
             var customer = await _customerReadRepository.GetByIdAsync(request.Id, false);
             var response = new GetByIdCustomerQueryResponse
