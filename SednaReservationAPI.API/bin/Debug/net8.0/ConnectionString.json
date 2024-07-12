@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "PostgreSQL": "User ID=postgres;Password=sednacloud;Host=localhost;Port=5432;Database=SednaCloudAPIDb;"
+  }
+}
