@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fcO3fMZpji8REAOn66UeditcKShQAteOXSFHLkg6B0I=",
+  "Source": "SednaReservationAPI",
+  "BasePath": "_content/SednaReservationAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
