@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using SednaReservationAPI.Application.Abstractions.Services;
 using SednaReservationAPI.Application.DTOs.User;
+using SednaReservationAPI.Application.Exceptions;
 using SednaReservationAPI.Application.Features.Commands.AppUser.CreateAppUser;
 using SednaReservationAPI.Domain.Entities.Identity;
 using System;
@@ -43,6 +44,19 @@ namespace SednaReservationAPI.Persistence.Services
                     response.Message += $"{error.Code} - {error.Description}\n";
 
             return response;
+        }
+
+        public async Task UpdateRefreshToken(string refreshToken, string userId, DateTime accessTokenDate, int refreshTokenLifeTime)
+        {
+            AppUser user = await _userManager.FindByIdAsync(userId);
+            if (user != null)
+            {
+                user.RefreshToken = refreshToken;
+                user.RefreshTokenExpirationDate = accessTokenDate.AddMinutes(refreshTokenLifeTime);
+                await _userManager.UpdateAsync(user);
+
+                throw new NotFoundUserException();
+            }
         }
     }
 }

@@ -45,6 +45,7 @@ namespace SednaReservationAPI.Persistence
             services.AddScoped<IRoomTypeWriteRepository, RoomTypeWriteRepository>();
 
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IAuthService, AuthService>();
         }
     }
 }
