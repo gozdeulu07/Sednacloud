@@ -1,10 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SednaReservationAPI.Application.Abstractions.Services;
 using SednaReservationAPI.Application.Repositories;
 using SednaReservationAPI.Domain.Entities.Identity;
 using SednaReservationAPI.Persistence.Contexts;
 using SednaReservationAPI.Persistence.Repositories;
+using SednaReservationAPI.Persistence.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,9 +17,9 @@ namespace SednaReservationAPI.Persistence
 {
     public static class ServiceRegistiration
     {
-        public static void AddPersistenceServices(this IServiceCollection services)
+        public static void AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<SednaReservationAPIDbContext>(options => options.UseNpgsql("User ID=postgres;Password=sednacloud;Host=localhost;Port=5432;Database=SednaReservationAPIDb;"));
+            services.AddDbContext<SednaReservationAPIDbContext>(options => options.UseNpgsql(configuration.GetConnectionString("PostgreSQL")));
             services.AddIdentity<AppUser, AppRole>(options =>
             {
                 options.Password.RequiredLength = 5;
@@ -41,6 +43,8 @@ namespace SednaReservationAPI.Persistence
             services.AddScoped<IRoomWriteRepository, RoomWriteRepository>();
             services.AddScoped<IRoomTypeReadRepository, RoomTypeReadRepository>();
             services.AddScoped<IRoomTypeWriteRepository, RoomTypeWriteRepository>();
+
+            services.AddScoped<IUserService, UserService>();
         }
     }
 }

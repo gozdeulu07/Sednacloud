@@ -13,9 +13,8 @@ namespace SednaReservationAPI.Domain.Entities.Identity
         public string? Password { get; set; }
         public int Age { get; set; }
         public string? Gender { get; set; }
-
-        public string RefreshToken { get; set; }
-        public DateTime RefreshTokenExpirationDate { get; set; }
+        public string? RefreshToken { get; set; }
+        public DateTime? RefreshTokenExpirationDate { get; set; }
 
     }
 }

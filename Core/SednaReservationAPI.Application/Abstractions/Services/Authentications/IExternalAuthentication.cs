@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SednaReservationAPI.Application.Features.Commands.AppUser.DeleteAppUser
+namespace SednaReservationAPI.Application.Abstractions.Services.Authentications
 {
-    public class DeleteAppUserCommandResponse
+    public interface IExternalAuthentication
     {
+
     }
 }

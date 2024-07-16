@@ -1,5 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
+using SednaReservationAPI.Application.Abstractions.Services;
+using SednaReservationAPI.Application.DTOs.User;
 using SednaReservationAPI.Application.Exceptions;
 using System;
 using System.Collections.Generic;
@@ -11,34 +13,33 @@ namespace SednaReservationAPI.Application.Features.Commands.AppUser.CreateAppUse
 {
     public class CreateUserCommandHandler : IRequestHandler<CreateUserCommandRequest, CreateUserCommandResponse>
     {
-        private readonly UserManager<Domain.Entities.Identity.AppUser> _userManager;
+        readonly IUserService _userService;
 
-        public CreateUserCommandHandler(UserManager<Domain.Entities.Identity.AppUser> userManager)
+        public CreateUserCommandHandler(IUserService userService)
         {
-            _userManager = userManager;
+            _userService = userService;
         }
 
         public async Task<CreateUserCommandResponse> Handle(CreateUserCommandRequest request, CancellationToken cancellationToken)
         {
-            IdentityResult result = await _userManager.CreateAsync(new()
+            CreateUserResponse createUserResponse = await _userService.CreateAsync(new()
             {
-                Id = Guid.NewGuid().ToString(),
                 UserName = request.UserName,
                 Name = request.Name,
                 Email = request.Email,
-                PhoneNumber = request.Phone,
+                Password = request.Password,
+                PasswordConfirm = request.PasswordConfirm,
+                Phone = request.Phone,
                 Age = request.Age,
                 Gender = request.Gender
-            }, request.Password);
-            CreateUserCommandResponse response = new() { Success = result.Succeeded};
+            });
 
-            if (result.Succeeded)
-                response.Message = "User Created Successfully!";
-            else
-                foreach (var error in result.Errors)
-                    response.Message += $"{error.Code} - {error.Description}\n";
-            
-            return response;
+            return new()
+            {
+                Message = createUserResponse.Message,
+                Success = createUserResponse.Success
+            };
+
             //throw new UserCreateFailedException();
         }
     }
