@@ -1,0 +1,385 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9FF2CA2-FD87-4575-94CB-4F193A852F30}|Infrastructure\\SednaReservationAPI.Persistence\\SednaReservationAPI.Persistence.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\infrastructure\\sednareservationapi.persistence\\serviceregistiration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9FF2CA2-FD87-4575-94CB-4F193A852F30}|Infrastructure\\SednaReservationAPI.Persistence\\SednaReservationAPI.Persistence.csproj|solutionrelative:infrastructure\\sednareservationapi.persistence\\serviceregistiration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\sednareservationapi.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\sednareservationapi.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.application\\features\\commands\\customer\\createcustomer\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\commands\\customer\\createcustomer\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5BC48A-3670-4FE0-AE07-3A1ABFD8C150}|Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A5BC48A-3670-4FE0-AE07-3A1ABFD8C150}|Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj|solutionrelative:core\\sednareservationapi.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.application\\features\\commands\\customer\\createcustomer\\createcustomercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\commands\\customer\\createcustomer\\createcustomercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.application\\features\\commands\\customer\\createcustomer\\createcustomercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\commands\\customer\\createcustomer\\createcustomercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.application\\validators\\customers\\createcustomervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\validators\\customers\\createcustomervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.application\\sednareservationapi.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\sednareservationapi.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\controllers\\roomtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\roomtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5BC48A-3670-4FE0-AE07-3A1ABFD8C150}|Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.domain\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A5BC48A-3670-4FE0-AE07-3A1ABFD8C150}|Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj|solutionrelative:core\\sednareservationapi.domain\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5BC48A-3670-4FE0-AE07-3A1ABFD8C150}|Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.domain\\entities\\identity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A5BC48A-3670-4FE0-AE07-3A1ABFD8C150}|Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj|solutionrelative:core\\sednareservationapi.domain\\entities\\identity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5BC48A-3670-4FE0-AE07-3A1ABFD8C150}|Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.domain\\entities\\common\\baseentitity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A5BC48A-3670-4FE0-AE07-3A1ABFD8C150}|Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj|solutionrelative:core\\sednareservationapi.domain\\entities\\common\\baseentitity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SednaReservationAPI.API.http",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\SednaReservationAPI.API.http",
+              "RelativeDocumentMoniker": "SednaReservationAPI.API\\SednaReservationAPI.API.http",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\SednaReservationAPI.API.http",
+              "RelativeToolTip": "SednaReservationAPI.API\\SednaReservationAPI.API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-07-11T11:25:52.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateCustomerCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Features\\Commands\\Customer\\CreateCustomer\\CreateCustomerCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Commands\\Customer\\CreateCustomer\\CreateCustomerCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Features\\Commands\\Customer\\CreateCustomer\\CreateCustomerCommandHandler.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Commands\\Customer\\CreateCustomer\\CreateCustomerCommandHandler.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T11:15:09.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateCustomerCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Features\\Commands\\Customer\\CreateCustomer\\CreateCustomerCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Commands\\Customer\\CreateCustomer\\CreateCustomerCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Features\\Commands\\Customer\\CreateCustomer\\CreateCustomerCommandResponse.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Commands\\Customer\\CreateCustomer\\CreateCustomerCommandResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T11:14:44.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Domain\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Domain\\Entities\\Customer.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Domain\\Entities\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T10:52:54.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceRegistiration.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Infrastructure\\SednaReservationAPI.Persistence\\ServiceRegistiration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\SednaReservationAPI.Persistence\\ServiceRegistiration.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Infrastructure\\SednaReservationAPI.Persistence\\ServiceRegistiration.cs",
+              "RelativeToolTip": "Infrastructure\\SednaReservationAPI.Persistence\\ServiceRegistiration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:59:41.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SednaReservationAPI.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\appsettings.json",
+              "RelativeToolTip": "SednaReservationAPI.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-11T08:32:13.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Program.cs",
+              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Program.cs",
+              "RelativeToolTip": "SednaReservationAPI.API\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:34:10.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateCustomerCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Features\\Commands\\Customer\\CreateCustomer\\CreateCustomerCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Commands\\Customer\\CreateCustomer\\CreateCustomerCommandRequest.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Features\\Commands\\Customer\\CreateCustomer\\CreateCustomerCommandRequest.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Commands\\Customer\\CreateCustomer\\CreateCustomerCommandRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T10:53:12.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateCustomerValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Validators\\Customers\\CreateCustomerValidator.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Validators\\Customers\\CreateCustomerValidator.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Validators\\Customers\\CreateCustomerValidator.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Validators\\Customers\\CreateCustomerValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T10:49:21.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SednaReservationAPI.Application",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-11T10:47:46.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\RoomsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T13:33:14.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\ReviewsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T13:33:12.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\ReservationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T13:33:12.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\PaymentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T13:33:11.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\HotelsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T13:33:10.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RoomTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\RoomTypesController.cs",
+              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\RoomTypesController.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\RoomTypesController.cs",
+              "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\RoomTypesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T13:30:03.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T13:29:58.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwB0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T13:26:40.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Domain\\Entities\\Identity\\AppUser.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Domain\\Entities\\Identity\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Domain\\Entities\\Identity\\AppUser.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Domain\\Entities\\Identity\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T13:26:03.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Domain\\Entities\\Identity\\AppRole.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Domain\\Entities\\Identity\\AppRole.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Domain\\Entities\\Identity\\AppRole.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Domain\\Entities\\Identity\\AppRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T13:26:02.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseEntitity.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Domain\\Entities\\Common\\BaseEntitity.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Domain\\Entities\\Common\\BaseEntitity.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Domain\\Entities\\Common\\BaseEntitity.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Domain\\Entities\\Common\\BaseEntitity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T13:25:58.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

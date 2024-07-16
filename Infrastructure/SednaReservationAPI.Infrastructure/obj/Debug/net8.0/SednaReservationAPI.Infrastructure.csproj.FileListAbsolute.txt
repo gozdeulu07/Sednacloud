@@ -1,0 +1,53 @@
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Infrastructure.deps.json
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Infrastructure.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Infrastructure.pdb
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Application.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Domain.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Application.pdb
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Domain.pdb
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaRes.FDBE4BE1.Up2Date
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\refint\SednaReservationAPI.Infrastructure.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.pdb
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\ref\SednaReservationAPI.Infrastructure.dll
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Infrastructure.deps.json
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Infrastructure.dll
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Infrastructure.pdb
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Application.dll
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Domain.dll
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Application.pdb
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Domain.pdb
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaRes.FDBE4BE1.Up2Date
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.dll
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\refint\SednaReservationAPI.Infrastructure.dll
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.pdb
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\ref\SednaReservationAPI.Infrastructure.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.sourcelink.json
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Infrastructure.deps.json
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Infrastructure.dll
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Infrastructure.pdb
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Application.dll
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Domain.dll
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Application.pdb
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\bin\Debug\net8.0\SednaReservationAPI.Domain.pdb
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.sourcelink.json
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaRes.FDBE4BE1.Up2Date
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.dll
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\refint\SednaReservationAPI.Infrastructure.dll
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\SednaReservationAPI.Infrastructure.pdb
+C:\Users\Demir\Documents\GitHub\Sednacloud\Infrastructure\SednaReservationAPI.Infrastructure\obj\Debug\net8.0\ref\SednaReservationAPI.Infrastructure.dll
