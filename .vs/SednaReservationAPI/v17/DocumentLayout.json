@@ -7,56 +7,8 @@
       "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\sednareservationapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\features\\commands\\appuser\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\commands\\appuser\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\features\\commands\\appuser\\createuser\\createusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\commands\\appuser\\createuser\\createusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\sednareservationapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\sednareservationapi.api\\controllers\\roomtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\roomtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\features\\commands\\appuser\\createuser\\createusercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\commands\\appuser\\createuser\\createusercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\sednareservationapi.api\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66A593AE-6C28-48B9-9A80-A287C146E16D}|Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\infrastructure\\sednareservationapi.infrastructure\\serviceregistiration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66A593AE-6C28-48B9-9A80-A287C146E16D}|Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj|solutionrelative:infrastructure\\sednareservationapi.infrastructure\\serviceregistiration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66A593AE-6C28-48B9-9A80-A287C146E16D}|Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\infrastructure\\sednareservationapi.infrastructure\\services\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66A593AE-6C28-48B9-9A80-A287C146E16D}|Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj|solutionrelative:infrastructure\\sednareservationapi.infrastructure\\services\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\dtos\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\dtos\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\abstractions\\token\\itokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\abstractions\\token\\itokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,167 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RoomTypesController.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\Controllers\\RoomTypesController.cs",
-              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\RoomTypesController.cs",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\Controllers\\RoomTypesController.cs",
-              "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\RoomTypesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T07:04:00.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RoomsController.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\Controllers\\RoomsController.cs",
-              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\RoomsController.cs",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\Controllers\\RoomsController.cs",
-              "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\RoomsController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T07:01:52.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateUserCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandHandler.cs",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandHandler.cs",
-              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandHandler.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAqwC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T07:00:22.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateUserCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandRequest.cs",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandRequest.cs",
-              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T07:00:23.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateUserCommandResponse.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandResponse.cs",
-              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandResponse.cs",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandResponse.cs",
-              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:57:23.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ServiceRegistiration.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Infrastructure\\SednaReservationAPI.Infrastructure\\ServiceRegistiration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\SednaReservationAPI.Infrastructure\\ServiceRegistiration.cs",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Infrastructure\\SednaReservationAPI.Infrastructure\\ServiceRegistiration.cs",
-              "RelativeToolTip": "Infrastructure\\SednaReservationAPI.Infrastructure\\ServiceRegistiration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:52:41.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginUserCommandResponse.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandResponse.cs",
-              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandResponse.cs",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandResponse.cs",
-              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:47:14.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBwAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:46:30.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TokenHandler.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Infrastructure\\SednaReservationAPI.Infrastructure\\Services\\TokenHandler.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\SednaReservationAPI.Infrastructure\\Services\\TokenHandler.cs",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Infrastructure\\SednaReservationAPI.Infrastructure\\Services\\TokenHandler.cs",
-              "RelativeToolTip": "Infrastructure\\SednaReservationAPI.Infrastructure\\Services\\TokenHandler.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwCEAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:35:05.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Token.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\DTOs\\Token.cs",
-              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\DTOs\\Token.cs",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\DTOs\\Token.cs",
-              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\DTOs\\Token.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:34:10.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ITokenHandler.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Abstractions\\Token\\ITokenHandler.cs",
-              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Abstractions\\Token\\ITokenHandler.cs",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Abstractions\\Token\\ITokenHandler.cs",
-              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Abstractions\\Token\\ITokenHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:33:14.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\appsettings.json",
-              "RelativeDocumentMoniker": "SednaReservationAPI.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\appsettings.json",
-              "RelativeToolTip": "SednaReservationAPI.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-16T06:30:22.834Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -236,22 +32,22 @@
               "RelativeDocumentMoniker": "SednaReservationAPI.API\\Program.cs",
               "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\Program.cs",
               "RelativeToolTip": "SednaReservationAPI.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAACAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:25:01.884Z",
+              "WhenOpened": "2024-07-16T07:26:38.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginUserCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
-              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAYwC4AAAANAAAA",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:23:50.256Z",
+              "WhenOpened": "2024-07-16T07:20:17.978Z",
               "EditorCaption": ""
             }
           ]

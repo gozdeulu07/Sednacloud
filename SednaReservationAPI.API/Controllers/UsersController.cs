@@ -9,7 +9,6 @@ namespace SednaReservationAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(AuthenticationSchemes = "Admin")]
     public class UsersController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -26,7 +25,6 @@ namespace SednaReservationAPI.API.Controllers
             return Ok(createUserCommandResponse);
         }
 
-        [AllowAnonymous]
         [HttpPost("[action]")]
         public async Task<IActionResult> Login(LoginUserCommandRequest loginUserCommandRequest)
         {
