@@ -11,7 +11,10 @@ namespace SednaReservationAPI.Application.Features.Commands.Room.CreateRoom
     {
         public int HotelId { get; set; }
         public int RoomTypeId { get; set; }
-        public decimal BasePrice { get; set; }
+        public decimal? BaseAdultPrice { get; set; }
+        public decimal? BaseChildPrice { get; set; }
         public string? Status { get; set; }
+        public Domain.Entities.RoomType? RoomType { get; set; }
+        public ICollection<Domain.Entities.RoomType>? RoomTypes { get; set; }
     }
 }

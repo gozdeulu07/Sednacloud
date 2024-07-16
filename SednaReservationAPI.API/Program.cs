@@ -21,10 +21,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     {
         options.TokenValidationParameters = new()
         {
-            ValidateAudience = true, // Validate tokens for which site/origin's token
-            ValidateIssuer = true, // Validate tokens for who give this token(api)
-            ValidateLifetime = true, // Valide tokens for check lifetime
-            ValidateIssuerSigningKey = true, // Valide tokens for if token is our website's
+            ValidateAudience = true, // Validates tokens for which site/origin's customer uses token
+            ValidateIssuer = true, // Validates tokens for who give this token(api)
+            ValidateLifetime = true, // Valides tokens for check lifetime
+            ValidateIssuerSigningKey = true, // Valides tokens for if token is our website's
 
             ValidAudience = builder.Configuration["Token:Audience"],
             ValidIssuer = builder.Configuration["Token:Issuer"],
@@ -44,7 +44,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
-app.UseAuthorization();
+//app.UseAuthorization();
 
 app.MapControllers();
 

@@ -21,7 +21,7 @@ namespace SednaReservationAPI.Infrastructure.Services
             _configuration = configuration;
         }
 
-        public Token CreateAccessToken(int minute)
+        public Application.DTOs.Token CreateAccessToken(int minute)
         {
             Application.DTOs.Token token = new();
 

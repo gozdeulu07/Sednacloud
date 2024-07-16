@@ -16,5 +16,9 @@ namespace SednaReservationAPI.Domain.Entities
         public string? Phone { get; set; }
         public int Age { get; set; }
         public string? Gender { get; set; }
+        public ICollection<Hotel>? Hotels { get; set; }
+        public ICollection<Payment>? Payments { get; set; }
+        public ICollection<Reservation>? Reservations { get; set; }
+        public ICollection<Review>? Reviews { get; set; }
     }
 }

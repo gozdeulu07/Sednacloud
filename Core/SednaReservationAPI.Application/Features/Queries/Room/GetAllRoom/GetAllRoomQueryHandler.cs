@@ -23,7 +23,8 @@ namespace SednaReservationAPI.Application.Features.Queries.Room.GetAllRoom
                 Id = room.Id.ToString(),
                 HotelId = room.HotelId,
                 RoomTypeId = room.RoomTypeId,
-                BasePrice = room.BasePrice,
+                BaseAdultPrice = room.BaseAdultPrice,
+                BaseChildPrice = room.BaseChildPrice,
                 Status = room.Status
 
             }).ToList();

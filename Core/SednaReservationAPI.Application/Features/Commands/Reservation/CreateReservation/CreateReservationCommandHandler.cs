@@ -23,6 +23,7 @@ namespace SednaReservationAPI.Application.Features.Commands.Reservation.CreateRe
             {
                 UserId = request.UserId,
                 RoomId = request.RoomId,
+                HotelId = request.HotelId,
                 CheckIn = request.CheckIn,
                 CheckOut = request.CheckOut,
                 TotalPrice = request.TotalPrice,

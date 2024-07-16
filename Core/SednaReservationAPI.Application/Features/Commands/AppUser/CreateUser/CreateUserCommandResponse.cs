@@ -10,6 +10,6 @@ namespace SednaReservationAPI.Application.Features.Commands.AppUser.CreateAppUse
     public class CreateUserCommandResponse
     {
         public bool Success { get; set; }
-        public string Message { get; set; }
+        public string? Message { get; set; }
     }
 }

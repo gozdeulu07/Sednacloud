@@ -93,7 +93,6 @@ C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservation
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\obj\Debug\net8.0\SednaReservationAPI.API.AssemblyInfoInputs.cache
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\obj\Debug\net8.0\SednaReservationAPI.API.AssemblyInfo.cs
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\obj\Debug\net8.0\SednaReservationAPI.API.csproj.CoreCompileInputs.cache
-C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\obj\Debug\net8.0\SednaReservationAPI.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\obj\Debug\net8.0\SednaReservationAPI.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\obj\Debug\net8.0\staticwebassets.development.json
@@ -261,3 +260,4 @@ C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Sed
 C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\SednaReservationAPI.API\obj\Debug\net8.0\SednaReservationAPI.API.genruntimeconfig.cache
 C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\SednaReservationAPI.API\obj\Debug\net8.0\ref\SednaReservationAPI.API.dll
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\obj\Debug\net8.0\SednaReservationAPI.API.sourcelink.json
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\SednaReservationAPI.API\obj\Debug\net8.0\SednaReservationAPI.API.MvcApplicationPartsAssemblyInfo.cs

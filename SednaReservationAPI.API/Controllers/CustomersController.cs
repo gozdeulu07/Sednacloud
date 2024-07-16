@@ -37,12 +37,14 @@ namespace SednaReservationAPI.API.Controllers
             List<GetAllCustomerQueryResponse> response = await _mediator.Send(getAllCustomerQueryRequest);
             return Ok(response);
         }
+
         [HttpGet("{Id}")]
         public async Task<IActionResult> GetById([FromRoute] GetByIdCustomerQueryRequest getByIdCustomerQueryRequest)
         {
             GetByIdCustomerQueryResponse response = await _mediator.Send(getByIdCustomerQueryRequest);
             return Ok(response);
         }
+
         [HttpPost]
         public async Task<IActionResult> addRoomType(CreateCustomerCommandRequest createCustomerCommandRequest)
         {
@@ -56,6 +58,7 @@ namespace SednaReservationAPI.API.Controllers
             DeleteCustomerCommandResponse response = await _mediator.Send(deleteCustomerCommandRequest);
             return Ok(response);
         }
+
         [HttpPut]
         public async Task<IActionResult> updateRoom([FromBody] UpdateCustomerCommandRequest updateCustomerCommandRequest)
         {

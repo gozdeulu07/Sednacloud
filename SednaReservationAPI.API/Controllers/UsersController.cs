@@ -26,6 +26,7 @@ namespace SednaReservationAPI.API.Controllers
             return Ok(createUserCommandResponse);
         }
 
+        [AllowAnonymous]
         [HttpPost("[action]")]
         public async Task<IActionResult> Login(LoginUserCommandRequest loginUserCommandRequest)
         {

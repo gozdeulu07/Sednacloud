@@ -24,7 +24,8 @@ namespace SednaReservationAPI.Application.Features.Commands.Room.UpdateRoom
             Domain.Entities.Room room = await _roomReadRepository.GetByIdAsync(request.Id);
             room.HotelId = request.HotelId;
             room.RoomTypeId = request.RoomTypeId;
-            room.BasePrice = request.BasePrice;
+            room.BaseAdultPrice = request.BaseAdultPrice;
+            room.BaseChildPrice = request.BaseChildPrice;
             room.Status = request.Status;
 
             await _roomWriteRepository.SaveAsync();

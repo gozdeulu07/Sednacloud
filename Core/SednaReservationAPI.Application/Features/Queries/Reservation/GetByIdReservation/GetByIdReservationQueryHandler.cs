@@ -25,6 +25,7 @@ namespace SednaReservationAPI.Application.Features.Queries.Reservation.GetByIdRe
                 Id = reservation.Id.ToString(),
                 UserId = reservation.UserId,
                 RoomId = reservation.RoomId,
+                HotelId = reservation.HotelId,
                 CheckIn = reservation.CheckIn,
                 CheckOut = reservation.CheckOut,
                 TotalPrice = reservation.TotalPrice,

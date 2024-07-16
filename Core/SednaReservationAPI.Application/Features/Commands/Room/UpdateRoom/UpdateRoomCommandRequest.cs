@@ -12,7 +12,8 @@ namespace SednaReservationAPI.Application.Features.Commands.Room.UpdateRoom
         public string? Id { get; set; }
         public int HotelId { get; set; }
         public int RoomTypeId { get; set; }
-        public decimal BasePrice { get; set; }
+        public decimal? BaseAdultPrice { get; set; }
+        public decimal? BaseChildPrice { get; set; }
         public string? Status { get; set; }
     }
 }

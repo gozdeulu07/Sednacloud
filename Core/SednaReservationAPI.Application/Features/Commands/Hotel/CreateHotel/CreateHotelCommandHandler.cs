@@ -1,8 +1,11 @@
 ﻿using MediatR;
 using SednaReservationAPI.Application.Repositories;
+using SednaReservationAPI.Domain.Entities;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -26,16 +29,14 @@ namespace SednaReservationAPI.Application.Features.Commands.Hotel.CreateHotel
                 Phone = request.Phone,
                 Email = request.Email,
                 Description = request.Description,
-                StarRating = request.StarRating,
+                ImageUrl = request.ImageUrl,
                 Star = request.Star,
-                ImageUrl = request.ImageUrl
 
             });
 
             await _hotelWriteRepository.SaveAsync();
 
             return new();
-
         }
     }
 }

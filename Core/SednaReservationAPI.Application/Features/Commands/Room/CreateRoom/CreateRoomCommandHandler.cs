@@ -23,8 +23,9 @@ namespace SednaReservationAPI.Application.Features.Commands.Room.CreateRoom
             {
                 HotelId = request.HotelId,
                 RoomTypeId = request.RoomTypeId,
-                BasePrice = request.BasePrice,
-                Status = request.Status,
+                BaseAdultPrice = request.BaseAdultPrice,
+                BaseChildPrice = request.BaseChildPrice,
+                Status = request.Status
             });
 
             await _roomWriteRepository.SaveAsync();

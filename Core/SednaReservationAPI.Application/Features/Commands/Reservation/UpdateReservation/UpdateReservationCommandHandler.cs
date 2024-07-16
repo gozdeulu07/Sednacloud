@@ -24,6 +24,7 @@ namespace SednaReservationAPI.Application.Features.Commands.Reservation.UpdateRe
 
             reservation.UserId = request.UserId;
             reservation.RoomId = request.RoomId;
+            reservation.HotelId = request.HotelId;
             reservation.CheckIn = request.CheckIn;
             reservation.CheckOut = request.CheckOut;
             reservation.TotalPrice = request.TotalPrice;

@@ -11,7 +11,14 @@ namespace SednaReservationAPI.Domain.Entities
     {
         public int HotelId { get; set; }
         public int RoomTypeId { get; set; }
-        public decimal BasePrice { get; set; }
+        public decimal? BaseAdultPrice { get; set; }
+        public decimal? BaseChildPrice { get; set; }
+        public decimal? AdultPrice { get; set; }
+        public decimal? ChildPrice { get; set; }
         public string? Status { get; set; }
+        public ICollection<Customer>? Customers { get; set; }
+        public ICollection<Hotel>? Hotels { get; set; }
+        public ICollection<Reservation>? Reservations { get; set; }
+        public ICollection<Review>? Reviews { get; set; }
     }
 }
