@@ -46,17 +46,16 @@ namespace SednaReservationAPI.Persistence.Services
             return response;
         }
 
-        public async Task UpdateRefreshToken(string refreshToken, string userId, DateTime accessTokenDate, int refreshTokenLifeTime)
+        public async Task UpdateRefreshToken(string refreshToken, AppUser user, DateTime accessTokenDate, int accessTokenAddOn)
         {
-            AppUser user = await _userManager.FindByIdAsync(userId);
             if (user != null)
             {
                 user.RefreshToken = refreshToken;
-                user.RefreshTokenExpirationDate = accessTokenDate.AddMinutes(refreshTokenLifeTime);
+                user.RefreshTokenExpirationDate = accessTokenDate.AddMinutes(accessTokenAddOn);
                 await _userManager.UpdateAsync(user);
-
-                throw new NotFoundUserException();
             }
+            else 
+                throw new NotFoundUserException();
         }
     }
 }

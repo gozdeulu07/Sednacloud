@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using SednaReservationAPI.Application.Abstractions.Services;
 using SednaReservationAPI.Application.Abstractions.Token;
 using SednaReservationAPI.Application.DTOs;
@@ -42,11 +43,26 @@ namespace SednaReservationAPI.Persistence.Services
             if (signInResult.Succeeded)
             {
                 Token token = _tokenHandler.CreateAccessToken(accessTokenLifeTime);
+                await _userService.UpdateRefreshToken(token.RefreshToken, user, token.Expiration, 1);
                 return token;
 
             }
-            
-            throw new AuthenticationErrorException();
+            else
+                throw new AuthenticationErrorException();
+        }
+
+        public async Task<Token> RefreshTokenLoginAsync(string refreshToken)
+        {
+            AppUser? user = await _userManager.Users.FirstOrDefaultAsync(user => user.RefreshToken == refreshToken);
+
+            if (user != null && user?.RefreshTokenExpirationDate > DateTime.UtcNow)
+            {
+                Token token = _tokenHandler.CreateAccessToken(1);
+                _userService.UpdateRefreshToken(token.RefreshToken, user, token.Expiration, 2);
+                return token;
+            }
+            else
+                throw new NotFoundUserException();
         }
     }
 }
