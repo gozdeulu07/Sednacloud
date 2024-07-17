@@ -1,7 +1,9 @@
 ﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.UserSecrets;
 using Microsoft.IdentityModel.Tokens;
 using SednaReservationAPI.Application.Abstractions.Token;
 using SednaReservationAPI.Application.DTOs;
+using SednaReservationAPI.Domain.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -31,6 +33,9 @@ namespace SednaReservationAPI.Infrastructure.Services
             
             // Encryption of SymmetricSecurityKey
             SigningCredentials signingCredentials = new(securityKey, SecurityAlgorithms.HmacSha256);
+
+            AppUser user = new AppUser();
+            string id = user.Id;
 
             // Settings for Create Token
             token.Expiration = DateTime.UtcNow.AddMinutes(minute);

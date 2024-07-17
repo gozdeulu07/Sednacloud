@@ -9,8 +9,8 @@ namespace SednaReservationAPI.Application.Features.Commands.Payment.UpdatePaymen
 {
     public class UpdatePaymentCommandRequest : IRequest<UpdatePaymentCommandResponse>
     {
-        public string Id { get; set; }
-        public int ReservationId { get; set; }
+        public string? Id { get; set; }
+        public string? ReservationId { get; set; }
         public decimal Amount { get; set; }
         public string? Status { get; set; }
         public string? PaymentMethod { get; set; }

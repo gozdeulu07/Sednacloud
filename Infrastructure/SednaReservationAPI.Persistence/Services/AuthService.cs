@@ -10,6 +10,7 @@ using SednaReservationAPI.Domain.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -58,7 +59,7 @@ namespace SednaReservationAPI.Persistence.Services
             if (user != null && user?.RefreshTokenExpirationDate > DateTime.UtcNow)
             {
                 Token token = _tokenHandler.CreateAccessToken(1);
-                _userService.UpdateRefreshToken(token.RefreshToken, user, token.Expiration, 2);
+                _userService.UpdateRefreshToken(token.RefreshToken, user, token.Expiration, 1);
                 return token;
             }
             else

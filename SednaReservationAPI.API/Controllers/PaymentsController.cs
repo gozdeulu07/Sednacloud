@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SednaReservationAPI.Application.Features.Commands.Payment.CreatePayment;
@@ -26,6 +27,7 @@ namespace SednaReservationAPI.API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> Get([FromQuery] GetAllPaymentQueryRequest getAllPaymentQueryRequest)
         {
             List<GetAllPaymentQueryResponse> response = await _mediator.Send(getAllPaymentQueryRequest);
