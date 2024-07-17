@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\sednareservationapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\validators\\roomtype\\createroomtypevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\validators\\roomtype\\createroomtypevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\validators\\room\\createroomvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\validators\\room\\createroomvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\validators\\review\\createreviewvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\validators\\review\\createreviewvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\validators\\reservation\\createreservationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\validators\\reservation\\createreservationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\Program.cs",
-              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Program.cs",
-              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\Program.cs",
-              "RelativeToolTip": "SednaReservationAPI.API\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Title": "CreateRoomTypeValidator.cs",
+              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Validators\\RoomType\\CreateRoomTypeValidator.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Validators\\RoomType\\CreateRoomTypeValidator.cs",
+              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Validators\\RoomType\\CreateRoomTypeValidator.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Validators\\RoomType\\CreateRoomTypeValidator.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAuwEAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T12:19:36.625Z",
+              "WhenOpened": "2024-07-17T14:03:56.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateRoomValidator.cs",
+              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Validators\\Room\\CreateRoomValidator.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Validators\\Room\\CreateRoomValidator.cs",
+              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Validators\\Room\\CreateRoomValidator.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Validators\\Room\\CreateRoomValidator.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T14:03:12.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateReviewValidator.cs",
+              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Validators\\Review\\CreateReviewValidator.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Validators\\Review\\CreateReviewValidator.cs",
+              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Validators\\Review\\CreateReviewValidator.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Validators\\Review\\CreateReviewValidator.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAuwDIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T14:02:36.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateReservationValidator.cs",
+              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Validators\\Reservation\\CreateReservationValidator.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Validators\\Reservation\\CreateReservationValidator.cs",
+              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Validators\\Reservation\\CreateReservationValidator.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Validators\\Reservation\\CreateReservationValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T14:01:50.628Z",
               "EditorCaption": ""
             }
           ]
