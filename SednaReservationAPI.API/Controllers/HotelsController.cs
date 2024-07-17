@@ -1,7 +1,4 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SednaReservationAPI.Application.Features.Commands.Hotel.CreateHotel;
 using SednaReservationAPI.Application.Features.Commands.Hotel.DeleteHotel;
 using SednaReservationAPI.Application.Features.Commands.Hotel.UpdateHotel;
@@ -29,7 +26,7 @@ namespace SednaReservationAPI.API.Controllers
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery] GetAllHotelQueryRequest getAllHotelQueryRequest)
         {
-            List<GetAllHotelQueryResponse> response = await _mediator.Send(getAllHotelQueryRequest);
+            GetAllHotelQueryResponse response = await _mediator.Send(getAllHotelQueryRequest);
             return Ok(response);
         }
 
