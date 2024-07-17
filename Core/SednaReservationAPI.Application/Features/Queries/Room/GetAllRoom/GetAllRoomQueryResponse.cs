@@ -9,8 +9,8 @@ namespace SednaReservationAPI.Application.Features.Queries.Room.GetAllRoom
     public class GetAllRoomQueryResponse
     {
         public string? Id { get; set; }
-        public int HotelId { get; set; }
-        public int RoomTypeId { get; set; }
+        public string? HotelId { get; set; }
+        public string? RoomTypeId { get; set; }
         public decimal? BaseAdultPrice { get; set; }
         public decimal? BaseChildPrice { get; set; }
         public string? Status { get; set; }

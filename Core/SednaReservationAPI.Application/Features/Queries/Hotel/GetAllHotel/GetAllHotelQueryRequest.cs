@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace SednaReservationAPI.Application.Features.Queries.Hotel.GetAllHotel
 {
-    public class GetAllHotelQueryRequest : IRequest<List<GetAllHotelQueryResponse>>
+    public class GetAllHotelQueryRequest : IRequest<GetAllHotelQueryResponse>
     {
+        public int Page { get; set; } = 0;
+        public int Size { get; set; } = 5;
     }
 }

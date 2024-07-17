@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using SednaReservationAPI.Application.Features.Commands.Hotel.CreateHotel;
 using SednaReservationAPI.Application.Features.Commands.Hotel.DeleteHotel;
 using SednaReservationAPI.Application.Features.Commands.Hotel.UpdateHotel;
@@ -24,6 +28,7 @@ namespace SednaReservationAPI.API.Controllers
         }
 
         [HttpGet]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<IActionResult> Get([FromQuery] GetAllHotelQueryRequest getAllHotelQueryRequest)
         {
             GetAllHotelQueryResponse response = await _mediator.Send(getAllHotelQueryRequest);

@@ -1,4 +1,6 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SednaReservationAPI.Application.Features.Commands.AppUser.LoginUser;
@@ -24,7 +26,7 @@ namespace SednaReservationAPI.API.Controllers
             return Ok(loginUserCommandResponse);
         }
 
-        [HttpGet("[action]")]
+        [HttpPost("[action]")]
         public async Task<IActionResult> RefreshTokenLogin([FromForm]RefreshTokenCommandRequest refreshTokenCommandRequest)
         {
             RefreshTokenCommandResponse refreshTokenCommandResponse = await _mediator.Send(refreshTokenCommandRequest);

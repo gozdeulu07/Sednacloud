@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.EntityFrameworkCore;
 using SednaReservationAPI.Application.Repositories;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SednaReservationAPI.Application.Features.Queries.Hotel.GetAllHotel
 {
-    public class GetAllHotelQueryHandler : IRequestHandler<GetAllHotelQueryRequest, List<GetAllHotelQueryResponse>>
+    public class GetAllHotelQueryHandler : IRequestHandler<GetAllHotelQueryRequest, GetAllHotelQueryResponse>
     {
         readonly IHotelReadRepository _hotelReadRepository;
 
@@ -17,24 +18,29 @@ namespace SednaReservationAPI.Application.Features.Queries.Hotel.GetAllHotel
             _hotelReadRepository = hotelReadRepository;
         }
 
-        public Task<List<GetAllHotelQueryResponse>> Handle(GetAllHotelQueryRequest request, CancellationToken cancellationToken)
+        public async Task<GetAllHotelQueryResponse> Handle(GetAllHotelQueryRequest request, CancellationToken cancellationToken)
         {
-            var hotels = _hotelReadRepository.GetAll(false)
-              .Select(hotel => new GetAllHotelQueryResponse
-              {
-                  Id = hotel.Id.ToString(),
-                  Name = hotel.Name,
-                  Address = hotel.Address,
-                  Phone = hotel.Phone,
-                  Email = hotel.Email,
-                  Description = hotel.Description,
-                  StarRating = hotel.StarRating,
-                  Star = hotel.Star,
-                  ImageUrl = hotel.ImageUrl
-              })
-              .ToList();
+            var totalCount = _hotelReadRepository.GetAll(false).Count();
+            var hotels = _hotelReadRepository.GetAll(false).Skip(request.Page * request.Size).Take(request.Size)
+                .Include(hotel => hotel.ImageUrl)
+                .Select(hotel => new
+                {
+                    hotel.Name,
+                    hotel.Address,
+                    hotel.Phone,
+                    hotel.Email,
+                    hotel.Description,
+                    hotel.StarRating,
+                    hotel.Star,
+                    hotel.ImageUrl
 
-            return Task.FromResult(hotels);
+                }).ToList();
+
+            return new()
+            {
+                TotalCount = totalCount,
+                Hotels = hotels
+            };
         }
     }
 }

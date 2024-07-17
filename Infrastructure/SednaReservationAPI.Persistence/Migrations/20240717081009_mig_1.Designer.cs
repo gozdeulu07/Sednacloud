@@ -12,8 +12,8 @@ using SednaReservationAPI.Persistence.Contexts;
 namespace SednaReservationAPI.Persistence.Migrations
 {
     [DbContext(typeof(SednaReservationAPIDbContext))]
-    [Migration("20240716110702_mig_11")]
-    partial class mig_11
+    [Migration("20240717081009_mig_1")]
+    partial class mig_1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -163,13 +163,13 @@ namespace SednaReservationAPI.Persistence.Migrations
 
             modelBuilder.Entity("ReservationRoom", b =>
                 {
-                    b.Property<Guid>("ReservationsId")
+                    b.Property<Guid>("RoomId")
                         .HasColumnType("uuid");
 
                     b.Property<Guid>("RoomsId")
                         .HasColumnType("uuid");
 
-                    b.HasKey("ReservationsId", "RoomsId");
+                    b.HasKey("RoomId", "RoomsId");
 
                     b.HasIndex("RoomsId");
 
@@ -178,13 +178,13 @@ namespace SednaReservationAPI.Persistence.Migrations
 
             modelBuilder.Entity("ReservationRoomType", b =>
                 {
-                    b.Property<Guid>("ReservationsId")
+                    b.Property<Guid>("RoomId")
                         .HasColumnType("uuid");
 
                     b.Property<Guid>("RoomTypesId")
                         .HasColumnType("uuid");
 
-                    b.HasKey("ReservationsId", "RoomTypesId");
+                    b.HasKey("RoomId", "RoomTypesId");
 
                     b.HasIndex("RoomTypesId");
 
@@ -424,8 +424,8 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<string>("PaymentMethod")
                         .HasColumnType("text");
 
-                    b.Property<int>("ReservationId")
-                        .HasColumnType("integer");
+                    b.Property<string>("ReservationId")
+                        .HasColumnType("text");
 
                     b.Property<string>("Status")
                         .HasColumnType("text");
@@ -473,6 +473,9 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<string>("RoomId")
                         .HasColumnType("text");
 
+                    b.Property<string>("RoomTypeId")
+                        .HasColumnType("text");
+
                     b.Property<string>("Status")
                         .HasColumnType("text");
 
@@ -515,7 +518,10 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<Guid>("HotelId")
+                    b.Property<string>("HotelId")
+                        .HasColumnType("text");
+
+                    b.Property<Guid?>("HotelId1")
                         .HasColumnType("uuid");
 
                     b.Property<float>("Rating")
@@ -530,14 +536,14 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uuid");
+                    b.Property<string>("UserId")
+                        .HasColumnType("text");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CustomerId");
 
-                    b.HasIndex("HotelId");
+                    b.HasIndex("HotelId1");
 
                     b.HasIndex("RoomId");
 
@@ -573,11 +579,11 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<int>("HotelId")
-                        .HasColumnType("integer");
+                    b.Property<string>("HotelId")
+                        .HasColumnType("text");
 
-                    b.Property<int>("RoomTypeId")
-                        .HasColumnType("integer");
+                    b.Property<string>("RoomTypeId")
+                        .HasColumnType("text");
 
                     b.Property<Guid?>("RoomTypeId1")
                         .HasColumnType("uuid");
@@ -712,7 +718,7 @@ namespace SednaReservationAPI.Persistence.Migrations
                 {
                     b.HasOne("SednaReservationAPI.Domain.Entities.Reservation", null)
                         .WithMany()
-                        .HasForeignKey("ReservationsId")
+                        .HasForeignKey("RoomId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -727,7 +733,7 @@ namespace SednaReservationAPI.Persistence.Migrations
                 {
                     b.HasOne("SednaReservationAPI.Domain.Entities.Reservation", null)
                         .WithMany()
-                        .HasForeignKey("ReservationsId")
+                        .HasForeignKey("RoomId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -778,9 +784,7 @@ namespace SednaReservationAPI.Persistence.Migrations
 
                     b.HasOne("SednaReservationAPI.Domain.Entities.Hotel", null)
                         .WithMany("Reviews")
-                        .HasForeignKey("HotelId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("HotelId1");
 
                     b.HasOne("SednaReservationAPI.Domain.Entities.Room", null)
                         .WithMany("Reviews")

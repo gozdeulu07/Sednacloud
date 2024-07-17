@@ -14,8 +14,8 @@ namespace SednaReservationAPI.Domain.Entities
         public string? Phone { get; set; }
         public string? Email { get; set; }
         public string? Description { get; set; }
-        public int StarRating { get; set; }
-        public float Star {  get; set; }
+        public float StarRating { get; set; }
+        public int Star {  get; set; }
         public string? ImageUrl { get; set; }
         public ICollection<Reservation>? Reservations { get; set; }
         public ICollection<Review>? Reviews { get; set; }

@@ -186,8 +186,8 @@ namespace SednaReservationAPI.Persistence.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    HotelId = table.Column<int>(type: "integer", nullable: false),
-                    RoomTypeId = table.Column<int>(type: "integer", nullable: false),
+                    HotelId = table.Column<string>(type: "text", nullable: true),
+                    RoomTypeId = table.Column<string>(type: "text", nullable: true),
                     BaseAdultPrice = table.Column<decimal>(type: "numeric", nullable: true),
                     BaseChildPrice = table.Column<decimal>(type: "numeric", nullable: true),
                     AdultPrice = table.Column<decimal>(type: "numeric", nullable: true),
@@ -270,7 +270,7 @@ namespace SednaReservationAPI.Persistence.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    ReservationId = table.Column<int>(type: "integer", nullable: false),
+                    ReservationId = table.Column<string>(type: "text", nullable: true),
                     Amount = table.Column<decimal>(type: "numeric", nullable: false),
                     Status = table.Column<string>(type: "text", nullable: true),
                     PaymentMethod = table.Column<string>(type: "text", nullable: true),
@@ -346,6 +346,7 @@ namespace SednaReservationAPI.Persistence.Migrations
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
                     UserId = table.Column<string>(type: "text", nullable: true),
                     RoomId = table.Column<string>(type: "text", nullable: true),
+                    RoomTypeId = table.Column<string>(type: "text", nullable: true),
                     HotelId = table.Column<string>(type: "text", nullable: true),
                     CheckIn = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     CheckOut = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
@@ -378,11 +379,12 @@ namespace SednaReservationAPI.Persistence.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    HotelId = table.Column<Guid>(type: "uuid", nullable: false),
-                    UserId = table.Column<Guid>(type: "uuid", nullable: false),
+                    HotelId = table.Column<string>(type: "text", nullable: true),
+                    UserId = table.Column<string>(type: "text", nullable: true),
                     Rating = table.Column<float>(type: "real", nullable: false),
                     Comment = table.Column<string>(type: "text", nullable: true),
                     CustomerId = table.Column<Guid>(type: "uuid", nullable: true),
+                    HotelId1 = table.Column<Guid>(type: "uuid", nullable: true),
                     RoomId = table.Column<Guid>(type: "uuid", nullable: true),
                     RoomTypeId = table.Column<Guid>(type: "uuid", nullable: true),
                     CreatedDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
@@ -399,11 +401,10 @@ namespace SednaReservationAPI.Persistence.Migrations
                         principalTable: "Customers",
                         principalColumn: "Id");
                     table.ForeignKey(
-                        name: "FK_Reviews_Hotels_HotelId",
-                        column: x => x.HotelId,
+                        name: "FK_Reviews_Hotels_HotelId1",
+                        column: x => x.HotelId1,
                         principalTable: "Hotels",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Reviews_RoomTypes_RoomTypeId",
                         column: x => x.RoomTypeId,
@@ -420,15 +421,15 @@ namespace SednaReservationAPI.Persistence.Migrations
                 name: "ReservationRoom",
                 columns: table => new
                 {
-                    ReservationsId = table.Column<Guid>(type: "uuid", nullable: false),
+                    RoomId = table.Column<Guid>(type: "uuid", nullable: false),
                     RoomsId = table.Column<Guid>(type: "uuid", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ReservationRoom", x => new { x.ReservationsId, x.RoomsId });
+                    table.PrimaryKey("PK_ReservationRoom", x => new { x.RoomId, x.RoomsId });
                     table.ForeignKey(
-                        name: "FK_ReservationRoom_Reservations_ReservationsId",
-                        column: x => x.ReservationsId,
+                        name: "FK_ReservationRoom_Reservations_RoomId",
+                        column: x => x.RoomId,
                         principalTable: "Reservations",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -444,15 +445,15 @@ namespace SednaReservationAPI.Persistence.Migrations
                 name: "ReservationRoomType",
                 columns: table => new
                 {
-                    ReservationsId = table.Column<Guid>(type: "uuid", nullable: false),
+                    RoomId = table.Column<Guid>(type: "uuid", nullable: false),
                     RoomTypesId = table.Column<Guid>(type: "uuid", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ReservationRoomType", x => new { x.ReservationsId, x.RoomTypesId });
+                    table.PrimaryKey("PK_ReservationRoomType", x => new { x.RoomId, x.RoomTypesId });
                     table.ForeignKey(
-                        name: "FK_ReservationRoomType_Reservations_ReservationsId",
-                        column: x => x.ReservationsId,
+                        name: "FK_ReservationRoomType_Reservations_RoomId",
+                        column: x => x.RoomId,
                         principalTable: "Reservations",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -552,9 +553,9 @@ namespace SednaReservationAPI.Persistence.Migrations
                 column: "CustomerId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Reviews_HotelId",
+                name: "IX_Reviews_HotelId1",
                 table: "Reviews",
-                column: "HotelId");
+                column: "HotelId1");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Reviews_RoomId",

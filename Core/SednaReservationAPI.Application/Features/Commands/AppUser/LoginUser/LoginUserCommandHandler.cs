@@ -23,11 +23,11 @@ namespace SednaReservationAPI.Application.Features.Commands.AppUser.LoginUser
 
         public async Task<LoginUserCommandResponse> Handle(LoginUserCommandRequest request, CancellationToken cancellationToken)
         {
-            var token = await _authService.LoginAsync(request.UsernameOrEmail, request.Password, 5);
+            var token = await _authService.LoginAsync(request.UsernameOrEmail, request.Password, 1);
 
             return new LoginUserSuccessCommandResponse()
             {
-                Token = token 
+                Token = token
             };
         }
     }
