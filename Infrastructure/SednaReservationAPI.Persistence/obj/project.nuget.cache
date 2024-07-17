@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dAq4QUr00ss=",
+  "dgSpecHash": "1QUaps4CDEk=",
   "success": true,
   "projectFilePath": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Infrastructure\\SednaReservationAPI.Persistence\\SednaReservationAPI.Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\berke\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\berke\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\berke\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.2\\fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "C:\\Users\\berke\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\berke\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\berke\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
