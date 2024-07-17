@@ -31,7 +31,7 @@ namespace SednaReservationAPI.API.Controllers
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<IActionResult> Get([FromQuery] GetAllHotelQueryRequest getAllHotelQueryRequest)
         {
-            List<GetAllHotelQueryResponse> response = await _mediator.Send(getAllHotelQueryRequest);
+            GetAllHotelQueryResponse response = await _mediator.Send(getAllHotelQueryRequest);
             return Ok(response);
         }
 
