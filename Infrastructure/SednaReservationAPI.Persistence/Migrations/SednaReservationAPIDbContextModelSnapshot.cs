@@ -270,11 +270,11 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<string>("Phone")
                         .HasColumnType("text");
 
-                    b.Property<float>("Star")
-                        .HasColumnType("real");
-
-                    b.Property<int>("StarRating")
+                    b.Property<int>("Star")
                         .HasColumnType("integer");
+
+                    b.Property<float>("StarRating")
+                        .HasColumnType("real");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");

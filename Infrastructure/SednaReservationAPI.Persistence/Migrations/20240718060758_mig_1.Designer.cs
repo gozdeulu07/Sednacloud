@@ -12,7 +12,7 @@ using SednaReservationAPI.Persistence.Contexts;
 namespace SednaReservationAPI.Persistence.Migrations
 {
     [DbContext(typeof(SednaReservationAPIDbContext))]
-    [Migration("20240717081009_mig_1")]
+    [Migration("20240718060758_mig_1")]
     partial class mig_1
     {
         /// <inheritdoc />
@@ -273,11 +273,11 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.Property<string>("Phone")
                         .HasColumnType("text");
 
-                    b.Property<float>("Star")
-                        .HasColumnType("real");
-
-                    b.Property<int>("StarRating")
+                    b.Property<int>("Star")
                         .HasColumnType("integer");
+
+                    b.Property<float>("StarRating")
+                        .HasColumnType("real");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");

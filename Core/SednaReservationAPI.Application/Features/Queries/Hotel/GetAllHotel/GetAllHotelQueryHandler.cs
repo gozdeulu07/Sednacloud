@@ -22,7 +22,6 @@ namespace SednaReservationAPI.Application.Features.Queries.Hotel.GetAllHotel
         {
             var totalCount = _hotelReadRepository.GetAll(false).Count();
             var hotels = _hotelReadRepository.GetAll(false).Skip(request.Page * request.Size).Take(request.Size)
-                .Include(hotel => hotel.ImageUrl)
                 .Select(hotel => new
                 {
                     hotel.Name,

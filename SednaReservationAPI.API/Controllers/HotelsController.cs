@@ -35,7 +35,7 @@ namespace SednaReservationAPI.API.Controllers
             return Ok(response);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{Id}")]
         public async Task<IActionResult> GetById([FromRoute] GetByIdHotelQueryRequest getByIdHotelQueryRequest)
         {
             GetByIdHotelQueryResponse response = await _mediator.Send(getByIdHotelQueryRequest);
