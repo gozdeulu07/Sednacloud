@@ -24,6 +24,7 @@ namespace SednaReservationAPI.Application.Features.Queries.Hotel.GetAllHotel
             var hotels = _hotelReadRepository.GetAll(false).Skip(request.Page * request.Size).Take(request.Size)
                 .Select(hotel => new
                 {
+                    hotel.Id,
                     hotel.Name,
                     hotel.Address,
                     hotel.Phone,
