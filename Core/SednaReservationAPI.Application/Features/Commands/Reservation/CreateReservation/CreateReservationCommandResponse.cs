@@ -8,5 +8,6 @@ namespace SednaReservationAPI.Application.Features.Commands.Reservation.CreateRe
 {
     public class CreateReservationCommandResponse
     {
+        public string ReservationId { get; set; }
     }
 }

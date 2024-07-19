@@ -51,13 +51,6 @@ namespace SednaReservationAPI.Application.Validators.Hotel
                 .WithMessage("Image URL cannot be null!")
                 .Must(BeValidUrl)
                 .WithMessage("Please enter valid Image URL!");
-
-            RuleFor(h => h.StarRating)
-                .NotEmpty()
-                .NotNull()
-                    .WithMessage("Please do not leave star rating blank!");
-                //.Must(BeValidRating)
-                //    .WithMessage("Please enter valid star rating!");
         }
         private static bool BeValidUrl(string url)
         {

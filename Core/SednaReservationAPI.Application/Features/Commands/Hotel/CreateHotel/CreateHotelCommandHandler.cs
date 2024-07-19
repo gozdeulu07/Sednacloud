@@ -30,7 +30,7 @@ namespace SednaReservationAPI.Application.Features.Commands.Hotel.CreateHotel
                 Email = request.Email,
                 Description = request.Description,
                 ImageUrl = request.ImageUrl,
-                Star = request.Star,
+                Star = request.Star
 
             });
 

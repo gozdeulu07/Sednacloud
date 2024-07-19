@@ -27,7 +27,6 @@ namespace SednaReservationAPI.API.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         public async Task<IActionResult> Get([FromQuery] GetAllPaymentQueryRequest getAllPaymentQueryRequest)
         {
             List<GetAllPaymentQueryResponse> response = await _mediator.Send(getAllPaymentQueryRequest);

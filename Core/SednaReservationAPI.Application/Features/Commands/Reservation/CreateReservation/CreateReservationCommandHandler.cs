@@ -19,7 +19,7 @@ namespace SednaReservationAPI.Application.Features.Commands.Reservation.CreateRe
 
         public async Task<CreateReservationCommandResponse> Handle(CreateReservationCommandRequest request, CancellationToken cancellationToken)
         {
-            await _reservationWriteRepository.AddAsync(new Domain.Entities.Reservation
+            var reservation = new Domain.Entities.Reservation
             {
                 UserId = request.UserId,
                 RoomId = request.RoomId,
@@ -28,10 +28,15 @@ namespace SednaReservationAPI.Application.Features.Commands.Reservation.CreateRe
                 CheckOut = request.CheckOut,
                 TotalPrice = request.TotalPrice,
                 Status = request.Status
-            });
+            };
 
+            await _reservationWriteRepository.AddAsync(reservation);
             await _reservationWriteRepository.SaveAsync();
-            return new();
+            
+            return new()
+            {
+                ReservationId = reservation.Id.ToString()
+            };
         }
     }
 }
