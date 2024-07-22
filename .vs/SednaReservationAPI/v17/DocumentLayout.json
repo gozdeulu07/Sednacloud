@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,12 +70,25 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.application\\features\\queries\\hotel\\getallhotel\\getallhotelqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\queries\\hotel\\getallhotel\\getallhotelqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.application\\features\\queries\\hotel\\getallhotel\\getallhotelqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\queries\\hotel\\getallhotel\\getallhotelqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.application\\features\\queries\\hotel\\getallhotel\\getallhotelqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\queries\\hotel\\getallhotel\\getallhotelqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\sednareservationapi.api\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{8A5BC48A-3670-4FE0-AE07-3A1ABFD8C150}|Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.domain\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A5BC48A-3670-4FE0-AE07-3A1ABFD8C150}|Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj|solutionrelative:core\\sednareservationapi.domain\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -85,6 +99,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{8A5BC48A-3670-4FE0-AE07-3A1ABFD8C150}|Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\core\\sednareservationapi.domain\\entities\\common\\baseentitity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A5BC48A-3670-4FE0-AE07-3A1ABFD8C150}|Core\\SednaReservationAPI.Domain\\SednaReservationAPI.Domain.csproj|solutionrelative:core\\sednareservationapi.domain\\entities\\common\\baseentitity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{F9FF2CA2-FD87-4575-94CB-4F193A852F30}|Infrastructure\\SednaReservationAPI.Persistence\\SednaReservationAPI.Persistence.csproj|c:\\users\\demir\\documents\\github\\sednacloud\\infrastructure\\sednareservationapi.persistence\\contexts\\sednareservationapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9FF2CA2-FD87-4575-94CB-4F193A852F30}|Infrastructure\\SednaReservationAPI.Persistence\\SednaReservationAPI.Persistence.csproj|solutionrelative:infrastructure\\sednareservationapi.persistence\\contexts\\sednareservationapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +112,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 6,
+=======
+          "SelectedChildIndex": 7,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Document",
@@ -235,6 +257,7 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+<<<<<<< Updated upstream
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "RoomsController.cs",
@@ -289,11 +312,20 @@
             {
               "$type": "Document",
               "DocumentIndex": 17,
+=======
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
               "Title": "HotelsController.cs",
               "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\HotelsController.cs",
               "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\HotelsController.cs",
               "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\SednaReservationAPI.API\\Controllers\\HotelsController.cs",
               "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\HotelsController.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T13:33:10.062Z",
@@ -375,6 +407,59 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T13:25:58.346Z",
+=======
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwDwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:48:43.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SednaReservationAPIDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Infrastructure\\SednaReservationAPI.Persistence\\Contexts\\SednaReservationAPIDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\SednaReservationAPI.Persistence\\Contexts\\SednaReservationAPIDbContext.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Infrastructure\\SednaReservationAPI.Persistence\\Contexts\\SednaReservationAPIDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\SednaReservationAPI.Persistence\\Contexts\\SednaReservationAPIDbContext.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAYwDgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:41:30.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllHotelQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryRequest.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryRequest.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:40:40.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllHotelQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryResponse.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryResponse.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:40:39.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAllHotelQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryHandler.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryHandler.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:35:16.023Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             }
           ]

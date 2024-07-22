@@ -6426,6 +6426,12 @@
             "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj": {
               "projectPath": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj"
             },
+<<<<<<< Updated upstream
+=======
+            "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Infrastructure\\SednaReservationAPI.Infrastructure\\SednaReservationAPI.Infrastructure.csproj"
+            },
+>>>>>>> Stashed changes
             "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Infrastructure\\SednaReservationAPI.Persistence\\SednaReservationAPI.Persistence.csproj": {
               "projectPath": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Infrastructure\\SednaReservationAPI.Persistence\\SednaReservationAPI.Persistence.csproj"
             }

@@ -14,6 +14,25 @@ C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReserv
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Application\obj\Debug\net8.0\refint\SednaReservationAPI.Application.dll
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.pdb
 C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Application\obj\Debug\net8.0\ref\SednaReservationAPI.Application.dll
+<<<<<<< Updated upstream
+=======
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\bin\Debug\net8.0\SednaReservationAPI.Application.deps.json
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\bin\Debug\net8.0\SednaReservationAPI.Application.dll
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\bin\Debug\net8.0\SednaReservationAPI.Application.pdb
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\bin\Debug\net8.0\SednaReservationAPI.Domain.dll
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\bin\Debug\net8.0\SednaReservationAPI.Domain.pdb
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.csproj.AssemblyReference.cache
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.AssemblyInfoInputs.cache
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.AssemblyInfo.cs
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaRes.E74FDC45.Up2Date
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.dll
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\obj\Debug\net8.0\refint\SednaReservationAPI.Application.dll
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.pdb
+C:\Users\berke\Downloads\Sednacloud-8d451b52724272f8fd3c150916f5a47b7afc6dea\Core\SednaReservationAPI.Application\obj\Debug\net8.0\ref\SednaReservationAPI.Application.dll
+C:\Users\berke\Documents\Internship Project\SednaReservationAPI\Core\SednaReservationAPI.Application\obj\Debug\net8.0\SednaReservationAPI.Application.sourcelink.json
+>>>>>>> Stashed changes
 C:\Users\Demir\Documents\GitHub\Sednacloud\Core\SednaReservationAPI.Application\bin\Debug\net8.0\SednaReservationAPI.Application.deps.json
 C:\Users\Demir\Documents\GitHub\Sednacloud\Core\SednaReservationAPI.Application\bin\Debug\net8.0\SednaReservationAPI.Application.dll
 C:\Users\Demir\Documents\GitHub\Sednacloud\Core\SednaReservationAPI.Application\bin\Debug\net8.0\SednaReservationAPI.Application.pdb

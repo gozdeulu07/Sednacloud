@@ -211,6 +211,99 @@ namespace SednaReservationAPI.Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Hotels");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("18a6f42e-55e5-46d0-a5bf-5ecf9303f030"),
+                            Address = "Address A",
+                            Deleted = false,
+                            Description = "Description A",
+                            Email = "hotelA@example.com",
+                            ImageUrl = "imageA.jpg",
+                            Name = "Hotel A",
+                            Phone = "1234567890",
+                            Star = 3,
+                            StarRating = 5f
+                        },
+                        new
+                        {
+                            Id = new Guid("e1a0c3d2-b0fb-444b-aa82-7b0ae50ea89a"),
+                            Address = "Address B",
+                            Deleted = false,
+                            Description = "Description B",
+                            Email = "hotelB@example.com",
+                            ImageUrl = "imageB.jpg",
+                            Name = "Hotel B",
+                            Phone = "0987654321",
+                            Star = 5,
+                            StarRating = 4f
+                        },
+                        new
+                        {
+                            Id = new Guid("95d65214-5ed4-46cd-b571-216cffaa0e87"),
+                            Address = "Address B",
+                            Deleted = false,
+                            Description = "Description C",
+                            Email = "hotelC@example.com",
+                            ImageUrl = "imageB.jpg",
+                            Name = "Hotel C",
+                            Phone = "0987654321",
+                            Star = 5,
+                            StarRating = 4.2f
+                        },
+                        new
+                        {
+                            Id = new Guid("c95524cc-e624-4a5a-9731-478f45df7968"),
+                            Address = "Address B",
+                            Deleted = false,
+                            Description = "Description D",
+                            Email = "hotelD@example.com",
+                            ImageUrl = "imageB.jpg",
+                            Name = "Hotel D",
+                            Phone = "0987654321",
+                            Star = 2,
+                            StarRating = 3.7f
+                        },
+                        new
+                        {
+                            Id = new Guid("72bc2179-eb9b-4573-9c7d-42228e0ba0b5"),
+                            Address = "Address B",
+                            Deleted = false,
+                            Description = "Description E",
+                            Email = "hotelE@example.com",
+                            ImageUrl = "imageB.jpg",
+                            Name = "Hotel E",
+                            Phone = "0987654321",
+                            Star = 4,
+                            StarRating = 1.5f
+                        },
+                        new
+                        {
+                            Id = new Guid("174334b2-fe3a-4d94-aae6-2d8096fec568"),
+                            Address = "Address B",
+                            Deleted = false,
+                            Description = "Description F",
+                            Email = "hotelF@example.com",
+                            ImageUrl = "imageB.jpg",
+                            Name = "Hotel F",
+                            Phone = "0987654321",
+                            Star = 1,
+                            StarRating = 3.9f
+                        },
+                        new
+                        {
+                            Id = new Guid("659fb1a0-7790-47f2-931b-429864582a8e"),
+                            Address = "Address B",
+                            Deleted = false,
+                            Description = "Description G",
+                            Email = "hotelG@example.com",
+                            ImageUrl = "imageB.jpg",
+                            Name = "Hotel G",
+                            Phone = "0987654321",
+                            Star = 5,
+                            StarRating = 4.8f
+                        });
                 });
 
             modelBuilder.Entity("SednaReservationAPI.Domain.Entities.Identity.AppRole", b =>

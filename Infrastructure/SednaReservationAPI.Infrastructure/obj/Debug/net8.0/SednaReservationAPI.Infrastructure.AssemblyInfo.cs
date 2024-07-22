@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SednaReservationAPI.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8c0b79878d1566913e2a34cb3a3706cfe714ccb")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+675aaebb626cb422a716c9bb065a7ae3b776eeb3")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("SednaReservationAPI.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SednaReservationAPI.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

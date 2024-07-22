@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "8YwJm7bRpxs=",
+=======
+  "dgSpecHash": "E0GrW9318Mw=",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "C:\\Users\\Demir\\Documents\\GitHub\\Sednacloud\\Infrastructure\\SednaReservationAPI.Persistence\\SednaReservationAPI.Persistence.csproj",
   "expectedPackageFiles": [
