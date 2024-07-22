@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 using SednaReservationAPI.Domain.Entities;
 using SednaReservationAPI.Domain.Entities.Common;
 using SednaReservationAPI.Domain.Entities.Identity;
@@ -34,7 +35,7 @@ namespace SednaReservationAPI.Persistence.Contexts
                 {
                     EntityState.Added => data.Entity.CreatedDate = DateTime.UtcNow,
                     EntityState.Modified => data.Entity.UpdatedDate = DateTime.UtcNow,
-                    EntityState.Deleted => data.Entity.DeletedDate = DateTime.UtcNow
+                    _ => DateTime.UtcNow
                 };
             }
             return await base.SaveChangesAsync(cancellationToken);

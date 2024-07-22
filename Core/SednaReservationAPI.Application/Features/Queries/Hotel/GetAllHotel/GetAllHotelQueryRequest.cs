@@ -11,5 +11,8 @@ namespace SednaReservationAPI.Application.Features.Queries.Hotel.GetAllHotel
     {
         public int Page { get; set; } = 0;
         public int Size { get; set; } = 5;
+        public string? SortBy { get; set; }
+        public bool IsAscending { get; set; } = true;
+
     }
 }

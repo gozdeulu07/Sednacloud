@@ -61,5 +61,21 @@ namespace SednaReservationAPI.API.Controllers
             UpdateHotelCommandResponse response = await _mediator.Send(updateHotelCommandRequest);
             return Ok(response);
         }
+
+        [HttpGet("Sort")]
+        public async Task<IActionResult> TestSort([FromQuery] string sortBy, [FromQuery] bool isAscending)
+        {
+            var queryRequest = new GetAllHotelQueryRequest
+            {
+                SortBy = sortBy,
+                IsAscending = isAscending,
+                Page = 0,
+                Size = 10
+            };
+
+            var response = await _mediator.Send(queryRequest);
+
+            return Ok(response);
+        }
     }
 }

@@ -12,5 +12,7 @@ namespace SednaReservationAPI.Application.Features.Queries.Hotel.GetAllHotel
     {
         public int TotalCount { get; set; }
         public object? Hotels { get; set; }
+        public object? FilteredHotels { get; set; }
+
     }
 }

@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\features\\queries\\hotel\\getallhotel\\getallhotelqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\queries\\hotel\\getallhotel\\getallhotelqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\features\\queries\\hotel\\getallhotel\\getallhotelqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\queries\\hotel\\getallhotel\\getallhotelqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\core\\sednareservationapi.application\\features\\queries\\hotel\\getallhotel\\getallhotelqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6410D05-B560-42C5-97C9-027C1F3DC655}|Core\\SednaReservationAPI.Application\\SednaReservationAPI.Application.csproj|solutionrelative:core\\sednareservationapi.application\\features\\queries\\hotel\\getallhotel\\getallhotelqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|c:\\users\\berke\\documents\\internship project\\sednareservationapi\\sednareservationapi.api\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5D80F1-A21A-4579-B863-6998B2ACBAA9}|SednaReservationAPI.API\\SednaReservationAPI.API.csproj|solutionrelative:sednareservationapi.api\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "SednaReservationAPI.API\\Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\SednaReservationAPI.API\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "SednaReservationAPI.API\\Controllers\\HotelsController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAA4wEAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:51:40.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllHotelQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryRequest.cs",
+              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryRequest.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:49:41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllHotelQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryHandler.cs",
+              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryHandler.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryHandler.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAmwE4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:49:14.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAllHotelQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryResponse.cs",
+              "ToolTip": "C:\\Users\\berke\\Documents\\Internship Project\\SednaReservationAPI\\Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryResponse.cs",
+              "RelativeToolTip": "Core\\SednaReservationAPI.Application\\Features\\Queries\\Hotel\\GetAllHotel\\GetAllHotelQueryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:48:56Z",
+              "EditorCaption": ""
             }
           ]
         }

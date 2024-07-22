@@ -44,13 +44,13 @@ namespace SednaReservationAPI.Application.Validators.Hotel
                 .Must(BeValidMail)
                     .WithMessage("Please enter valid mail!");
 
-            RuleFor(h => h.ImageUrl)
-                .NotEmpty()
-                .WithMessage("Please do not leave Image URL blank!")
-                .NotNull()
-                .WithMessage("Image URL cannot be null!")
-                .Must(BeValidUrl)
-                .WithMessage("Please enter valid Image URL!");
+            //RuleFor(h => h.ImageUrl)
+            //    .NotEmpty()
+            //    .WithMessage("Please do not leave Image URL blank!")
+            //    .NotNull()
+            //    .WithMessage("Image URL cannot be null!")
+            //    .Must(BeValidUrl)
+            //    .WithMessage("Please enter valid Image URL!");
         }
         private static bool BeValidUrl(string url)
         {
